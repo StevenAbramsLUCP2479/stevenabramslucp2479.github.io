@@ -1,0 +1,7 @@
+title: Steven Abrams
+description: Personal portfolio
+theme: minima
+
+header_pages:
+  - about.md
+  - projects.md
