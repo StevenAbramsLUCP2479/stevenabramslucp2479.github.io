@@ -1,0 +1,11 @@
+---
+layout: page
+title: Publications
+---
+
+*Last updated: `r format(Sys.Date(), "%B %d, %Y")`*
+
+## About
+
+All publications are automatically updated from my [ORCID profile](https://orcid.org/0000-0001-7353-9304).\
+Use the search box to filter publications. Click column headers to sort.

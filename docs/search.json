@@ -11,14 +11,14 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Publications"
+    "text": "Last updated: r format(Sys.Date(), \"%B %d, %Y\")"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Over the years, I have been involved in several projects. An overview of these projects is provided below.\n\n\nThis website is built with Jekyll and hosted using GitHub Pages.\nMore projects will be added soon."
+    "text": "Over the years, I have been involved in several projects. An overview of these projects is provided below."
   },
   {
     "objectID": "projects.html#portfolio-website",
@@ -68,5 +68,12 @@
     "title": "About me",
     "section": "About Joke",
     "text": "About Joke\nMy lovely wife is a creative jack-of-all-trades who is always busy doing things that make her happy. Luckily, I am one of those things too."
+  },
+  {
+    "objectID": "publications.html#about",
+    "href": "publications.html#about",
+    "title": "Publications",
+    "section": "About",
+    "text": "About\nAll publications are automatically updated from my ORCID profile.\nUse the search box to filter publications. Click column headers to sort."
   }
 ]
