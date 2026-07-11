@@ -3,12 +3,12 @@ project:
   output-dir: docs
 
 website:
-  title: "Kylie Ainslie, PhD"
-  repo-url: https://github.com/kylieainslie/kylieainslie.github.io
+  title: "Steven Abrams"
+  repo-url: https://github.com/stevenabramslucp2479/stevenabramslucp2479.github.io
   twitter-card:
-    creator: "@kylieainslie"
+    creator: "@stevenabramslucp2479"
     card-style: summary_large_image
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Bluesky_Social_logo.svg/1200px-Bluesky_Social_logo.svg.png"
+    image: ""
   navbar:
     background: primary
     search: true
