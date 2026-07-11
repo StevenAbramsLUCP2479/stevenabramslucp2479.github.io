@@ -23,7 +23,7 @@ website:
 format:
   html:
     theme:
-      light: lightsalmon
+      light: lumen
       dark: slate
     css: styles.css
     toc: true
