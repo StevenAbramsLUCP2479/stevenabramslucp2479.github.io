@@ -17,7 +17,7 @@ Eloine is born on July 13, 2016 and is passionate about horseback riding. She is
 
 ## About Dirce
 
-Born at July 23, 2018, she is eager to learn, curious and loves to do mathematics. Dirce plays hockey and is active as member of Scouts De Vrede.
+Born on July 23, 2018, she is eager to learn, curious and loves to do mathematics. Dirce plays hockey and is active as member of Scouts De Vrede.
 
 ## About Joke
 
