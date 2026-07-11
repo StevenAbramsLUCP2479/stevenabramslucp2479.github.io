@@ -15,20 +15,8 @@ website:
     left:
       - href: index.qmd
         text: "Home"
-      - about.qmd
-      - research.qmd
-      - publications.qmd
-      - cv.qmd
-      - text: Resources
-        menu:
-          - text: "Tutorials"
-            href: tutorials.qmd
-          - text: "---"  # separator line
-          - text: "Presentations"
-            href: presentations.qmd
-          - text: "---"  # separator line
-          - text: "Software"
-            href: software.qmd
+      - about.md
+      - projects.md
 
 format:
   html:
