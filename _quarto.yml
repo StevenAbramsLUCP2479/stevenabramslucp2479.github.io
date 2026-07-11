@@ -8,12 +8,12 @@ website:
   twitter-card:
     creator: "@stevenabramslucp2479"
     card-style: summary_large_image
-    image: ""
+    image: "https://github.com/stevenabramslucp2479/stevenabramslucp2479.github.io/figures/SA_figure.jpg"
   navbar:
     background: primary
     search: true
     left:
-      - href: index.qmd
+      - href: index.md
         text: "Home"
       - about.md
       - projects.md
