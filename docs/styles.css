@@ -1,0 +1,165 @@
+/* css styles */
+
+/* Make the title text in the publications table smaller */
+h3.listing-title a {
+    font-size: 0.75em; /* Adjust this to make the title smaller */
+}
+
+/* ============================================
+   RESEARCH PAGE PROJECT CARDS
+   ============================================ */
+
+/* Projects grid layout */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+/* Individual project cards */
+.project-card {
+    background: var(--bs-body-bg, white);
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    border: 1px solid var(--bs-border-color, #dee2e6);
+    overflow: hidden;
+}
+
+/* Dark mode cards */
+[data-bs-theme="dark"] .project-card {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+[data-bs-theme="dark"] .project-card:hover {
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+}
+
+/* Card header styling */
+.card-header {
+    background: #2c3e50;
+    color: white;
+    padding: 1.5rem;
+    border: none;
+}
+
+/* Dark mode header */
+[data-bs-theme="dark"] .card-header {
+    background: #1a252f;
+}
+
+.card-header h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem 0;
+    color: white;
+    border: none;
+}
+
+.card-header .project-meta {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    font-weight: 500;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Card body styling */
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-body h3 {
+    color: var(--bs-success, #78c2ad);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* Dark mode heading */
+[data-bs-theme="dark"] .card-body h3 {
+    color: var(--bs-success, #00bc8c);
+}
+
+.card-body p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: var(--bs-body-color);
+}
+
+/* Project links */
+.card-body .project-links {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.card-body .project-links a {
+    background: var(--bs-success-bg-subtle, #d1edea);
+    color: var(--bs-success, #78c2ad);
+    padding: 0.4rem 0.8rem;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.85rem;
+    border: 1px solid var(--bs-success-border-subtle, #78c2ad);
+    transition: all 0.3s ease;
+}
+
+.card-body .project-links a:hover {
+    background: var(--bs-success, #78c2ad);
+    color: white;
+    transform: translateY(-1px);
+}
+
+/* Dark mode links */
+[data-bs-theme="dark"] .card-body .project-links a {
+    background: var(--bs-success-bg-subtle, #051f1a);
+    color: var(--bs-success, #00bc8c);
+    border-color: var(--bs-success, #00bc8c);
+}
+
+[data-bs-theme="dark"] .card-body .project-links a:hover {
+    background: var(--bs-success, #00bc8c);
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin: 1.5rem 0;
+    }
+    
+    .card-header {
+        padding: 1.2rem;
+    }
+    
+    .card-header h2 {
+        font-size: 1.2rem;
+    }
+    
+    .card-body {
+        padding: 1.2rem;
+    }
+    
+    .card-body .project-links {
+        flex-direction: column;
+    }
+    
+    .card-body .project-links a {
+        text-align: center;
+    }
+}
+   

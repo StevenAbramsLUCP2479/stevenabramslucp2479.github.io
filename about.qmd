@@ -1,0 +1,180 @@
+---
+title: "About me"
+css: styles_css.css
+---
+
+::: intro-section
+My name is Steven Abrams. I am an assistent professor at the Data Science Institute, Interuniversity Institute for Biostatistics and statistical Bioinformatics (I-BioStat) at Hasselt University (UHasselt) and an associate professor at the Global Health Institute at the University of Antwerp, Belgium. In my research, I am focusing on the use and development of novel statistical and mathematical modelling methodology for the analysis of infectious disease data with the aim to improve the understanding of infectious disease dynamics and transmission, the evaluation of intervention strategies and surveillance of vaccine-preventable diseases.
+
+For more information about research conducted within SIMID, please consult www.simid.be.
+:::
+
+### My Journey
+
+::: scrolly-container
+::: scrolly-content
+
+### 🎓 PhD
+
+::: {#step-at .step}
+::: step-year
+2011-2015
+:::
+
+I did my PhD at Hasselt University (UHasselt), Belgium.
+
+::: step-year
+2015-2018
+:::
+
+Postdoc at UHasselt
+
+::: step-year
+2018-Present
+:::
+
+Assistant professor at University of Antwerp, Belgium.
+
+<!-- <!-- Get stats --> -->
+
+<!-- <!-- Google scholar ID: TGmFQ3sAAAAJ --> -->
+
+<!-- ```{r load_live_stats, echo=FALSE, include=FALSE} -->
+<!-- live_stats <- tryCatch( -->
+<!--   jsonlite::fromJSON("stats.json"), -->
+<!--   error = function(e) list(km_run = 15096.7, books_read_this_year = 25) -->
+<!-- ) -->
+<!-- km_run       <- live_stats$km_run -->
+<!-- books_this_year <- live_stats$books_read_this_year -->
+<!-- ``` -->
+
+<!-- ```{r get_google_scholar_stats, echo=FALSE, include=FALSE} -->
+
+<!-- # Number of publications from Google Scholar -->
+<!-- library(scholar) -->
+<!-- library(dplyr) -->
+
+<!-- # Calculate publications count -->
+<!-- scholar_id <- "TGmFQ3sAAAAJ"  -->
+<!-- # Get publications count (removing duplicates) -->
+<!-- pub_count <- tryCatch({ -->
+<!--   pubs <- get_publications(scholar_id) -->
+<!--   unique_pubs <- pubs %>% -->
+<!--     distinct(title, .keep_all = TRUE) -->
+<!--   nrow(unique_pubs) -->
+<!-- }, error = function(e) { -->
+<!--   40  # Fallback -->
+<!-- }) -->
+
+<!-- # Get total citations -->
+<!-- total_citations <- tryCatch({ -->
+<!--   profile <- get_profile(scholar_id) -->
+<!--   profile$total_cites -->
+<!-- }, error = function(e) { -->
+<!--   15000  # Fallback -->
+<!-- }) -->
+<!-- ``` -->
+
+<!-- ### Quick Stats -->
+
+<!-- ::: outro-section -->
+<!-- ::: stats-grid -->
+<!-- ::: stat-card -->
+<!-- ::: {#km-stat .stat-number} -->
+<!-- `r format(km_run, big.mark = ",", nsmall = 1)` -->
+<!-- ::: -->
+
+<!-- ::: stat-label -->
+<!-- Kilometers Run -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ::: stat-card -->
+<!-- ::: {#countries-stat .stat-number} -->
+<!-- 37 -->
+<!-- ::: -->
+
+<!-- ::: stat-label -->
+<!-- Countries Visited -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ::: stat-card -->
+<!-- ::: {#pub-stat .stat-number} -->
+<!-- `r pub_count` -->
+<!-- ::: -->
+
+<!-- ::: stat-label -->
+<!-- Google Scholar Publications -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ::: stat-card -->
+<!-- ::: stat-number -->
+<!-- `r format(total_citations, big.mark = ",", scientific = FALSE)` -->
+<!-- ::: -->
+
+<!-- ::: stat-label -->
+<!-- Total Citations -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ::: stat-card -->
+<!-- ::: {#books-stat .stat-number} -->
+<!-- `r books_this_year` -->
+<!-- ::: -->
+
+<!-- ::: stat-label -->
+<!-- Books Read This Year -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ::: stat-card -->
+<!-- ::: {#leon-stat .stat-number} -->
+<!-- 4 -->
+<!-- ::: -->
+
+<!-- ::: stat-label -->
+<!-- Daily dog walks with Leon -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
+<!-- ::: -->
+
+<!-- ### Life Outside of Research -->
+
+<!-- ::: outro-section -->
+<!-- ::: photo-grid -->
+<!-- ::: photo-card -->
+<!-- ![](photos/leon.jpeg) **Leon** - My pretty princess 👑 -->
+<!-- ::: -->
+
+<!-- ::: photo-card -->
+<!-- [![](photos/running.jpeg)](https://www.strava.com/athletes/37546778) **Running** - Still my favorite way to explore -->
+<!-- ::: -->
+
+<!-- ::: photo-card -->
+<!-- ![](photos/kylie_redwoods.jpeg) **Hiking** - Redwoods National & State Parks -->
+<!-- ::: -->
+
+<!-- ::: photo-card -->
+<!-- [![](photos/cooking.jpeg)](https://www.instagram.com/goinginforthekale/) **Cooking** - Food adventures on Instagram -->
+<!-- ::: -->
+
+<!-- ::: photo-card -->
+<!-- ![](photos/coffee.jpeg) **Coffee** - Perfecting my homemade flat white (my latte art needs work) 🙃 -->
+<!-- ::: -->
+
+<!-- ::: photo-card -->
+<!-- [![](images/rladies_amsterdam_logo.png)](https://www.meetup.com/rladies-amsterdam/) **R Ladies Amsterdam** - Volunteer Organizer -->
+
+<!-- Follow on [BlueSky](https://bsky.app/profile/rladiesamsterdam.bsky.social) -->
+<!-- ::: -->
+<!-- ::: -->
+
+
+
+<!-- ------------------------------------------------------------------------ -->
+
+<!-- *Want to connect?* Find me on social media or drop me an email  -->
+<!-- ::: -->

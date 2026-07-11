@@ -1,0 +1,5 @@
+"0","# Number of publications from Google Scholar
+library(scholar)
+"
+"2","Error in library(scholar) : there is no package called ‘scholar’
+"
