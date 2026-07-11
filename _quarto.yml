@@ -8,7 +8,7 @@ website:
   twitter-card:
     creator: "@stevenabramslucp2479"
     card-style: summary_large_image
-    image: "https://github.com/stevenabramslucp2479/stevenabramslucp2479.github.io/figures/SA_figure.jpg"
+    image: ""
   navbar:
     background: primary
     search: true
@@ -17,6 +17,7 @@ website:
         text: "Home"
       - about.md
       - projects.md
+      - publications.md
 
 format:
   html:
