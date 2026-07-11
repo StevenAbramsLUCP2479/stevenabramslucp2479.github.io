@@ -11,6 +11,14 @@ For more information about research conducted within SIMID, please consult www.s
 
 I have two pretty girls, Eloine and Dirce, and I am happily married with my wife Joke.
 
+## About Eloine
+
+Eloine is born on July 13, 2016 and is passionate about horseback riding. She is curious and cannot stand injustice. 
+
 ## About Dirce
 
-Dirce plays hockey.
+Born at July 23, 2018, she is eager to learn, curious and loves to do mathematics. Dirce plays hockey and is active as member of Scouts De Vrede.
+
+## About Joke
+
+My lovely wife is a creative jack-of-all-trades who is always busy doing things that make her happy. Luckily, I am one of those things too.
