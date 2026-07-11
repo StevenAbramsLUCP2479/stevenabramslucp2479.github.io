@@ -10,3 +10,7 @@ For more information about research conducted within SIMID, please consult www.s
 # My family
 
 I have two pretty girls, Eloine and Dirce, and I am happily married with my wife Joke.
+
+## About Dirce
+
+Dirce plays hockey.
