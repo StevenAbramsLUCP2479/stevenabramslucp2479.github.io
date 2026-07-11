@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Kylie Ainslie, PhD"
+  repo-url: https://github.com/kylieainslie/kylieainslie.github.io
+  twitter-card:
+    creator: "@kylieainslie"
+    card-style: summary_large_image
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Bluesky_Social_logo.svg/1200px-Bluesky_Social_logo.svg.png"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: "Home"
+      - about.qmd
+      - research.qmd
+      - publications.qmd
+      - cv.qmd
+      - text: Resources
+        menu:
+          - text: "Tutorials"
+            href: tutorials.qmd
+          - text: "---"  # separator line
+          - text: "Presentations"
+            href: presentations.qmd
+          - text: "---"  # separator line
+          - text: "Software"
+            href: software.qmd
+
+format:
+  html:
+    theme:
+      light: minty
+      dark: slate
+    css: styles.css
+    toc: true
+
+editor: visual
+
