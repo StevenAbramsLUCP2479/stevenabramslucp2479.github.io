@@ -1,0 +1,62 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+{% if site.author.orcid %}
+  <div class="wordwrap">All publications are maintained on my <a href="{{site.author.orcid}}">ORCID profile</a>.</div>
+{% endif %}
+
+{% include base_path %}
+
+<div class="pub-search-bar">
+  <input type="text" id="pub-search" placeholder="Search publications..." onkeyup="filterPublications()" />
+</div>
+
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    <details class="pub-category"{% if forloop.first %} open{% endif %}>
+      <summary>{{ category[1].title }}</summary>
+      {% for post in site.publications reversed %}
+        {% if post.category != category[0] %}
+          {% continue %}
+        {% endif %}
+        {% include archive-single.html %}
+      {% endfor %}
+    </details>
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+<script>
+  function filterPublications() {
+    var query = document.getElementById('pub-search').value.toLowerCase();
+    var groups = document.querySelectorAll('details.pub-category');
+    groups.forEach(function(group) {
+      var items = group.querySelectorAll('.list__item');
+      var visible = 0;
+      items.forEach(function(item) {
+        var show = !query || item.textContent.toLowerCase().indexOf(query) !== -1;
+        item.style.display = show ? '' : 'none';
+        if (show) visible++;
+      });
+      group.style.display = visible > 0 ? '' : 'none';
+      if (query !== '') {
+        group.open = visible > 0;
+      }
+    });
+  }
+</script>
+
+
+
