@@ -1,7 +1,0 @@
----
-layout: page
-title: Projects
----
-
-Over the years, I have been involved in several projects. An overview of these projects is provided below.
-

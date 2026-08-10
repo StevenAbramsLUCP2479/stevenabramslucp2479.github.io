@@ -1,0 +1,23 @@
+---
+layout: archive
+title: "Slides"
+permalink: /slides/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign subdirs = "conferences|teaching" | split: "|" %}
+{% assign labels = "Conference Presentations|Teaching & Workshops" | split: "|" %}
+
+{% for sub in subdirs %}
+  {% assign slides = site.static_files | where_exp: "item", "item.path contains sub" | where_exp: "item", "item.extname == '.pdf'" | sort: "name" | reverse %}
+  <h2 class="archive__subtitle">{{ labels[forloop.index0] }}</h2>
+  <ul class="slides-list">
+  {% for slide in slides %}
+    <li><a href="{{ base_path }}{{ slide.path }}" target="_blank">{{ slide.name }}</a></li>
+  {% else %}
+    <li><em>No slides in this section yet.</em></li>
+  {% endfor %}
+  </ul>
+{% endfor %}
