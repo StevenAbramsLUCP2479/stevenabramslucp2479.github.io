@@ -1,0 +1,62 @@
+# Presentations shown on the Slides page.
+# Newest presentations should be placed first.
+#
+# When slides are available, add:
+# slides: "/files/conferences/filename.pdf"
+
+- year: 2026
+  event: 'Workshop on "Combining Infectious Disease Modelling and AI: Methods and Communication"'
+  title: "Approaches to infectious disease modelling and mitigation: Mathematical, statistical and AI perspectives"
+  location: "Learning & Innovation Center, ULB-VUB"
+  date: "September 14, 2026"
+  slides: "/files/conferences/2026-infectious-disease-modelling-ai.pdf"
+
+- year: 2026
+  event: "Joint Meeting SIS-FENStatS 2026"
+  title: "Survival analysis within infectious disease modeling: from association in event time data to the analysis of serological data"
+  location: "Sapienza University Rome, Italy"
+  date: "June 26, 2026"
+  slides: "/files/conferences/2026-sis-fenstats.pdf"
+
+- year: 2026
+  event: 'Closing International Francqui workshop 2026 on "Causal aspects of lifetime and functional data analysis"'
+  title: "Survival analysis within infectious disease modelling: From local association in bivariate event time data to the analysis of multivariate serological data"
+  location: "KU Leuven, Belgium"
+  date: "May 26, 2026"
+  slides: "/files/conferences/2026-francqui.pdf"
+
+- year: 2025
+  event: "Solar Cookers for All (Sc4all): Collaboration between UHasselt and University of Lubumbashi"
+  title: "Day of Science"
+  location: "UHasselt, Belgium"
+  date: "November 23, 2025"
+
+- year: 2025
+  event: "Invited talk at Leiden University Medical Center"
+  title: "Survival analysis in infectious disease modeling: From local association in bivariate event time data to the analysis of multivariate serological data"
+  location: "Leiden, The Netherlands"
+  date: "November 19, 2025"
+
+- year: 2023
+  event: "CMStatistics conference 2023"
+  title: "Nonparametric estimation of quantiles of the conditional residual lifetime distribution"
+  location: "Berlin, Germany"
+  date: "December 17, 2023"
+
+- year: 2023
+  event: "BelCoVac symposium"
+  title: "Impact of the use of COVID-19 serological data on modeling"
+  location: "Brussels, Belgium"
+  date: "September 15, 2023"
+
+- year: 2023
+  event: "The 5th Central European Network (CEN) conference 2023"
+  title: "Individual heterogeneity in humoral immune response: A Bayesian frailty approach"
+  location: "Basel, Switzerland"
+  date: "September 7, 2023"
+
+- year: 2023
+  event: "ATMS workshop 2023"
+  title: "Nonparametric estimators for quantiles of the conditional residual lifetime distribution"
+  location: "Leuven, Belgium"
+  date: "May 4, 2023"

@@ -1,23 +1,43 @@
 ---
 layout: archive
-title: "Slides"
+title: "Presentations"
 permalink: /slides/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% assign subdirs = "conferences|teaching" | split: "|" %}
-{% assign labels = "Conference Presentations|Teaching & Workshops" | split: "|" %}
+<p>
+  Selected presentations, conference talks, seminars, and workshops.
+  Slides are available for presentations where a PDF has been provided.
+</p>
 
-{% for sub in subdirs %}
-  {% assign slides = site.static_files | where_exp: "item", "item.path contains sub" | where_exp: "item", "item.extname == '.pdf'" | sort: "name" | reverse %}
-  <h2 class="archive__subtitle">{{ labels[forloop.index0] }}</h2>
-  <ul class="slides-list">
-  {% for slide in slides %}
-    <li><a href="{{ base_path }}{{ slide.path }}" target="_blank">{{ slide.name }}</a></li>
-  {% else %}
-    <li><em>No slides in this section yet.</em></li>
-  {% endfor %}
-  </ul>
+{% assign current_year = "" %}
+
+{% for presentation in site.data.presentations %}
+
+  {% if presentation.year != current_year %}
+    <h2 class="archive__subtitle">{{ presentation.year }}</h2>
+    {% assign current_year = presentation.year %}
+  {% endif %}
+
+  <div style="margin-bottom: 2em;">
+
+    <strong>{{ presentation.event }}</strong><br>
+
+    <em>{{ presentation.title }}</em><br>
+
+    {{ presentation.location }} · {{ presentation.date }}
+
+    {% if presentation.slides %}
+      <br><br>
+      <a href="{{ base_path }}{{ presentation.slides }}"
+         class="btn"
+         target="_blank">
+        View slides
+      </a>
+    {% endif %}
+
+  </div>
+
 {% endfor %}
