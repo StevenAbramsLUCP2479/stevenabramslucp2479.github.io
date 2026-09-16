@@ -5,58 +5,52 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% if site.author.orcid %}
-  <div class="wordwrap">All publications are maintained on my <a href="{{site.author.orcid}}">ORCID profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<div class="pub-search-bar">
-  <input type="text" id="pub-search" placeholder="Search publications..." onkeyup="filterPublications()" />
+<p>
+  My scientific output is organised into the categories below.
+</p>
+
+<div style="margin-top: 2em;">
+
+  <div style="margin-bottom: 2em;">
+    <h2>Journal Publications</h2>
+    <p>Peer-reviewed articles published in scientific journals.</p>
+    <a href="/publications/articles/" class="btn">
+      View journal publications
+    </a>
+  </div>
+
+  <div style="margin-bottom: 2em;">
+    <h2>Book Chapters</h2>
+    <p>Contributions to scientific books and reference works.</p>
+    <a href="/publications/book-chapters/" class="btn">
+      View book chapters
+    </a>
+  </div>
+
+  <div style="margin-bottom: 2em;">
+    <h2>Conference Papers</h2>
+    <p>Published conference proceedings and conference contributions.</p>
+    <a href="/publications/conference-papers/" class="btn">
+      View conference papers
+    </a>
+  </div>
+
+  <div style="margin-bottom: 2em;">
+    <h2>Dissertations</h2>
+    <p>My doctoral dissertation and dissertations of PhD students I supervised or co-supervised.</p>
+    <a href="/publications/dissertations/" class="btn">
+      View dissertations
+    </a>
+  </div>
+
+  <div style="margin-bottom: 2em;">
+    <h2>Preprints</h2>
+    <p>Research manuscripts currently available as preprints.</p>
+    <a href="/publications/preprints/" class="btn">
+      View preprints
+    </a>
+  </div>
+
 </div>
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    <details class="pub-category"{% if forloop.first %} open{% endif %}>
-      <summary>{{ category[1].title }}</summary>
-      {% for post in site.publications reversed %}
-        {% if post.category != category[0] %}
-          {% continue %}
-        {% endif %}
-        {% include archive-single.html %}
-      {% endfor %}
-    </details>
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-<script>
-  function filterPublications() {
-    var query = document.getElementById('pub-search').value.toLowerCase();
-    var groups = document.querySelectorAll('details.pub-category');
-    groups.forEach(function(group) {
-      var items = group.querySelectorAll('.list__item');
-      var visible = 0;
-      items.forEach(function(item) {
-        var show = !query || item.textContent.toLowerCase().indexOf(query) !== -1;
-        item.style.display = show ? '' : 'none';
-        if (show) visible++;
-      });
-      group.style.display = visible > 0 ? '' : 'none';
-      if (query !== '') {
-        group.open = visible > 0;
-      }
-    });
-  }
-</script>
-
-
-

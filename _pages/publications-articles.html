@@ -1,0 +1,117 @@
+---
+layout: archive
+title: "Journal Publications"
+permalink: /publications/articles/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>
+  <a href="{{ base_path }}/publications/">← Back to Publications</a>
+</p>
+
+<p>
+  Peer-reviewed articles published in scientific journals.
+</p>
+
+<!-- External publication profiles -->
+<div style="
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.5rem 0 2rem 0;
+">
+
+  {% if site.author.googlescholar %}
+    <a href="{{ site.author.googlescholar }}"
+       class="btn"
+       target="_blank"
+       rel="noopener">
+      Google Scholar
+    </a>
+  {% endif %}
+
+  {% if site.author.orcid %}
+    <a href="{{ site.author.orcid }}"
+       class="btn"
+       target="_blank"
+       rel="noopener">
+      ORCID
+    </a>
+  {% endif %}
+
+</div>
+
+
+<!-- Search box -->
+<div style="margin-bottom: 2rem;">
+  <input
+    type="text"
+    id="pub-search"
+    placeholder="Search journal publications..."
+    onkeyup="filterPublications()"
+    style="
+      width: 100%;
+      max-width: 650px;
+      padding: 0.7rem 0.9rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    "
+  >
+</div>
+
+
+<!-- Journal publications only -->
+<div id="journal-publications">
+
+  {% assign journal_posts = site.publications | where: "category", "manuscripts" | reverse %}
+
+  {% for post in journal_posts %}
+    <div class="journal-publication">
+      {% include archive-single.html %}
+    </div>
+  {% endfor %}
+
+</div>
+
+
+<!-- Message when search gives no results -->
+<p id="no-results" style="display: none;">
+  <em>No publications found.</em>
+</p>
+
+
+<script>
+function filterPublications() {
+
+  var query =
+    document.getElementById('pub-search').value.toLowerCase();
+
+  var publications =
+    document.querySelectorAll('.journal-publication');
+
+  var visible = 0;
+
+  publications.forEach(function(publication) {
+
+    var text =
+      publication.textContent.toLowerCase();
+
+    var show =
+      !query || text.indexOf(query) !== -1;
+
+    publication.style.display =
+      show ? '' : 'none';
+
+    if (show) {
+      visible++;
+    }
+
+  });
+
+  document.getElementById('no-results').style.display =
+    visible === 0 ? 'block' : 'none';
+}
+</script>
