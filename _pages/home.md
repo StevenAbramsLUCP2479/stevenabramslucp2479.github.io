@@ -1,10 +1,8 @@
 ---
 permalink: /
-title: "Home"
+title: "Welcome"
 author_profile: true
 ---
-
-# Welcome
 
 I am **Steven Abrams**, a biostatistician and medical statistician with research interests in
 **infectious disease epidemiology, survival analysis, serology, mathematical and statistical modelling,
