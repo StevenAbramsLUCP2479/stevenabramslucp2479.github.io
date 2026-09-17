@@ -23,6 +23,9 @@ main:
   - title: "Presentations"
     url: /slides/
 
+  - title: "Science Communication"
+    url: /science-communication/
+
   - title: "CV"
     url: /files/cv_steven_abrams.pdf
     target: _blank
