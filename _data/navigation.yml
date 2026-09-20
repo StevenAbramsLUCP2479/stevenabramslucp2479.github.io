@@ -26,7 +26,10 @@ main:
   - title: "Science Communication"
     url: /science-communication/
 
-  - title: "CV"
+ - title: "Memberships"
+    url: /memberships/
+
+  - title: "Curriculum Vitae"
     url: /files/cv_steven_abrams.pdf
     target: _blank
 
