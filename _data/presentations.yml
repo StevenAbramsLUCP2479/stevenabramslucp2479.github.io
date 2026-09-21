@@ -44,18 +44,21 @@
   title: "Nonparametric estimation of quantiles of the conditional residual lifetime distribution"
   location: "Berlin, Germany"
   date: "December 17, 2023"
+  slides: "/files/conferences/2023-cmstatistics.pdf"
 
 - year: 2023
   event: "BelCoVac symposium"
   title: "Impact of the use of COVID-19 serological data on modeling"
   location: "Brussels, Belgium"
   date: "September 15, 2023"
-
+  slides: "/files/conferences/2023-belcovac.pdf"
+  
 - year: 2023
   event: "The 5th Central European Network (CEN) conference 2023"
   title: "Individual heterogeneity in humoral immune response: A Bayesian frailty approach"
   location: "Basel, Switzerland"
   date: "September 7, 2023"
+  slides: "/files/conferences/2023-cen.pdf"
 
 - year: 2023
   event: "ATMS workshop 2023"
