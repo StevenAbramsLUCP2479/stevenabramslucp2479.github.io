@@ -36,6 +36,7 @@
   title: "Survival analysis in infectious disease modeling: From local association in bivariate event time data to the analysis of multivariate serological data"
   location: "Leiden, The Netherlands"
   date: "November 19, 2025"
+  slides: "/files/conferences/2025-leiden.pdf"
 
 - year: 2023
   event: "CMStatistics conference 2023"
@@ -60,3 +61,4 @@
   title: "Nonparametric estimators for quantiles of the conditional residual lifetime distribution"
   location: "Leuven, Belgium"
   date: "May 4, 2023"
+  slides: "/files/conferences/2023-atms.pdf"
