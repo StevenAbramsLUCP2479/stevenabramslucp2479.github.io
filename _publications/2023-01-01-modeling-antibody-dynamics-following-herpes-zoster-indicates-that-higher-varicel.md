@@ -2,6 +2,7 @@
 title: 'Modeling antibody dynamics following herpes zoster indicates that higher varicella-zoster virus viremia generates more VZV-specific antibodies'
 collection: publications
 category: manuscripts
+topics: ["Immunity and vaccination"]
 permalink: /publication/2023-01-01-modeling-antibody-dynamics-following-herpes-zoster-indicates-that-higher-varicel/
 venue: 'Frontiers in Immunology'
 date: 2023-01-01

@@ -2,6 +2,7 @@
 title: 'Cracking the code of a correlate of protection against SARS-CoV-2 breakthrough infection in cancer patients'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Immunity and vaccination"]
 permalink: /publication/2025-01-01-cracking-the-code-of-a-correlate-of-protection-against-sars-cov-2-breakthrough-i/
 venue: 'Scientific Reports'
 date: 2025-01-01

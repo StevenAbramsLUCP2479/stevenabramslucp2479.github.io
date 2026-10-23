@@ -2,6 +2,7 @@
 title: 'Assessing the capacity of primary healthcare facilities and healthcare workers in managing diabetes and hypertension in Kisumu county, Kenya'
 collection: publications
 category: manuscripts
+topics: ["Clinical and public health research"]
 permalink: /publication/2025-01-01-assessing-the-capacity-of-primary-healthcare-facilities-and-healthcare-workers-i/
 venue: 'BMC Health Services Research'
 date: 2025-01-01

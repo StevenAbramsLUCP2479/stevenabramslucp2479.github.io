@@ -2,6 +2,7 @@
 title: 'Effectiveness of community-based cardiovascular disease prevention interventions to improve physical activity: A systematic review and meta-regression'
 collection: publications
 category: manuscripts
+topics: ["Clinical and public health research"]
 permalink: /publication/2021-01-01-effectiveness-of-community-based-cardiovascular-disease-prevention-interventions/
 venue: 'Preventive Medicine'
 date: 2021-01-01

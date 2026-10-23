@@ -2,6 +2,7 @@
 title: 'Who acquires infection from whom? A sensitivity analysis of transmission dynamics during the early phase of the COVID-19 pandemic in Belgium'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2024-01-01-who-acquires-infection-from-whom-a-sensitivity-analysis-of-transmission-dynamics/
 venue: 'Journal of Theoretical Biology'
 date: 2024-01-01

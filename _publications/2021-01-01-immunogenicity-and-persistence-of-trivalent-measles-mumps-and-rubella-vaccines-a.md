@@ -2,6 +2,7 @@
 title: 'Immunogenicity and persistence of trivalent measles, mumps, and rubella vaccines: a systematic review and meta-analysis'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Immunity and vaccination"]
 permalink: /publication/2021-01-01-immunogenicity-and-persistence-of-trivalent-measles-mumps-and-rubella-vaccines-a/
 venue: 'The Lancet Infectious Diseases'
 date: 2021-01-01

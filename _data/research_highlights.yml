@@ -1,0 +1,19 @@
+- title: Infectious disease transmission
+  summary: Statistical and mathematical models to understand outbreaks and assess public health interventions.
+  work: Measles quarantine policy
+  detail: A simulation study of quarantine strategies in primary schools and daycare settings in Flanders.
+  year: 2026
+  url: /publication/2026-01-01-informing-quarantine-policy-for-measles-control-in-primary-school-and-daycare-se/
+- title: Immunity and vaccination
+  summary: Serological data and antibody models to study immune responses after infection or vaccination.
+  work: Antibody responses to Ebola vaccination
+  detail: Within-host mathematical models of antibody kinetics following vaccination in the Democratic
+    Republic of the Congo.
+  year: 2025
+  url: /publication/2025-01-01-within-host-mathematical-models-to-study-antibody-kinetics-after-the-prophylacti/
+- title: Methods for public health decisions
+  summary: Biostatistical methods, survival analysis and quantitative evidence to evaluate interventions.
+  work: Benefits and risks of COVID-19 vaccination
+  detail: A population-based application of the BRAVE toolkit to evaluate Vaxzevria in the European Union.
+  year: 2025
+  url: /publication/2025-01-01-utilising-the-benefit-risk-assessment-of-vaccines-brave-toolkit-to-evaluate-the/

@@ -2,6 +2,7 @@
 title: 'Identifying immunity gaps for measles using Belgian serial serology data'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Immunity and vaccination"]
 permalink: /publication/2022-01-01-identifying-immunity-gaps-for-measles-using-belgian-serial-serology-data/
 venue: 'Vaccine'
 date: 2022-01-01

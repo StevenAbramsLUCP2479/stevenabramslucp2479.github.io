@@ -2,6 +2,7 @@
 title: 'The impact of national and international travel on spatio-temporal transmission of SARS-CoV-2 in Belgium in 2021'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2023-01-01-the-impact-of-national-and-international-travel-on-spatio-temporal-transmission/
 venue: 'BMC Infectious Diseases'
 date: 2023-01-01

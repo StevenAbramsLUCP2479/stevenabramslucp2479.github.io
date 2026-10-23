@@ -1,7 +1,8 @@
 ---
 title: 'CoMix: Comparing mixing patterns in the Belgian population during and after lockdown'
 collection: publications
-category: manuscripts
+category: preprints
+topics: ["Infectious diseases"]
 permalink: /publication/2020-01-01-comix-comparing-mixing-patterns-in-the-belgian-population-during-and-after-lockd/
 venue: 'medRxiv'
 date: 2020-01-01

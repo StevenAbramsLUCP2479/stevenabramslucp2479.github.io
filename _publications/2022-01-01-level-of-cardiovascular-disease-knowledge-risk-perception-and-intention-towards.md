@@ -2,6 +2,7 @@
 title: 'Level of cardiovascular disease knowledge, risk perception and intention towards healthy lifestyle and socioeconomic disparities among adults in vulnerable communities of Belgium and England'
 collection: publications
 category: manuscripts
+topics: ["Clinical and public health research"]
 permalink: /publication/2022-01-01-level-of-cardiovascular-disease-knowledge-risk-perception-and-intention-towards/
 venue: 'BMC Public Health'
 date: 2022-01-01

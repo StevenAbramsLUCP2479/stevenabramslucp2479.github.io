@@ -2,6 +2,7 @@
 title: 'Ivermectin Treatment Response in Onchocerca Volvulus Infected Persons with Epilepsy: A Three-Country Short Cohort Study'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2020-01-01-ivermectin-treatment-response-in-onchocerca-volvulus-infected-persons-with-epile/
 venue: 'Pathogens'
 date: 2020-01-01

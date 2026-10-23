@@ -5,13 +5,21 @@ permalink: /about/
 author_profile: true
 ---
 
-Welcome at my website. My name is Steven Abrams. I am an assistent professor at the Data Science Institute, Interuniversity Institute for Biostatistics and statistical Bioinformatics (I-BioStat) at Hasselt University (UHasselt) and an associate professor at the Global Health Institute at the University of Antwerp, Belgium. In my research, I am focusing on the use and development of novel statistical and mathematical modelling methodology for the analysis of infectious disease data with the aim to improve the understanding of infectious disease dynamics and transmission, the evaluation of intervention strategies and surveillance of vaccine-preventable diseases.
+I am **Steven Abrams**, a biostatistician and medical statistician working on infectious disease epidemiology and public health.
+
+I am an assistant professor at Hasselt University (UHasselt), within the Data Science Institute and the Interuniversity Institute for Biostatistics and Statistical Bioinformatics (I-BioStat), and an associate professor at the Global Health Institute at the University of Antwerp, Belgium.
+
+My research develops statistical and mathematical methods to understand how infections spread, how immunity changes over time, and how vaccination and other interventions can protect public health. My methodological interests include survival analysis, serological modelling and individual heterogeneity.
+
+For institutional information, see my [UHasselt profile](https://www.uhasselt.be/en/who-is-who/steven-abrams) and [University of Antwerp profile](https://www.uantwerpen.be/en/staff/steven-abrams/).
 
 For more information about research conducted within SIMID, please consult [www.simid.be](https://www.simid.be).
 
+[Contact me]({{ '/contact/' | relative_url }}) · [Download my CV (PDF)]({{ '/files/cv_steven_abrams.pdf' | relative_url }})
+
 <h2>Family</h2>
 
-I have two pretty girls, Eloine and Dirce, and I am happily married with my wife Joke.
+Outside work, I enjoy spending time with my wife Joke and our two daughters, Eloine and Dirce.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-top: 1rem; margin-bottom: 2rem;">
 
@@ -23,7 +31,7 @@ I have two pretty girls, Eloine and Dirce, and I am happily married with my wife
 
 <h2>About Eloine</h2>
 
-Eloine is born on July 13, 2016 and is passionate about horseback riding. She is curious and cannot stand injustice.
+Eloine was born on July 13, 2016 and is passionate about horseback riding. She is curious and cannot stand injustice.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-top: 1rem; margin-bottom: 2rem;">
 
@@ -35,7 +43,7 @@ Eloine is born on July 13, 2016 and is passionate about horseback riding. She is
 
 <h2>About Dirce</h2>
 
-Born on July 23, 2018, she is eager to learn, curious and loves to do mathematics. Dirce plays hockey and is active as member of Scouts De Vrede.
+Born on July 23, 2018, Dirce is eager to learn, curious and loves mathematics. She plays hockey and is an active member of Scouts De Vrede.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-top: 1rem; margin-bottom: 2rem;">
 

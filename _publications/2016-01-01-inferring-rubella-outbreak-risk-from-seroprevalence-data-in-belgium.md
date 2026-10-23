@@ -2,6 +2,7 @@
 title: 'Inferring rubella outbreak risk from seroprevalence data in Belgium'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Immunity and vaccination"]
 permalink: /publication/2016-01-01-inferring-rubella-outbreak-risk-from-seroprevalence-data-in-belgium/
 venue: 'Vaccine'
 date: 2016-01-01

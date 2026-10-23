@@ -40,3 +40,8 @@ author_profile: true
   </div>
 
 </div>
+<h2>Conference abstracts</h2>
+{% assign abstracts = site.publications | where: "conference_abstract", true | sort: "date" | reverse %}
+{% for post in abstracts %}
+  {% include publication-card.html %}
+{% endfor %}

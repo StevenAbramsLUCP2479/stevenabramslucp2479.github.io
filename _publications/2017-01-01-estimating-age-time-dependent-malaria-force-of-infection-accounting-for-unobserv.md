@@ -2,6 +2,7 @@
 title: 'Estimating age-time-dependent malaria force of infection accounting for unobserved heterogeneity'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Statistical methods"]
 permalink: /publication/2017-01-01-estimating-age-time-dependent-malaria-force-of-infection-accounting-for-unobserv/
 venue: 'Epidemiology and Infection'
 date: 2017-01-01

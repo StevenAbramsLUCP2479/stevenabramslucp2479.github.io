@@ -2,6 +2,7 @@
 title: 'Infectious diseases epidemiology, quantitative methodology, and clinical research in the midst of the COVID-19 pandemic: Perspective from a European country'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2020-01-01-infectious-diseases-epidemiology-quantitative-methodology-and-clinical-research/
 venue: 'Contemporary Clinical Trials'
 date: 2020-01-01

@@ -2,6 +2,7 @@
 title: 'Effect of Ivermectin Treatment on the Frequency of Seizures in Persons with Epilepsy Infected with  Onchocerca volvulus'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2020-01-01-effect-of-ivermectin-treatment-on-the-frequency-of-seizures-in-persons-with-epil/
 venue: 'Pathogens'
 date: 2020-01-01

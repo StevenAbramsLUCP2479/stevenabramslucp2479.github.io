@@ -2,6 +2,7 @@
 title: 'Exploring the Pareto front of multi-objective COVID-19 mitigation policies using reinforcement learning'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2024-01-01-exploring-the-pareto-front-of-multi-objective-covid-19-mitigation-policies-using/
 venue: 'Expert Systems With Applications'
 date: 2024-01-01

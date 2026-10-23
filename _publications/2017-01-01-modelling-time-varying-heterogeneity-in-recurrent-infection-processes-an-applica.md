@@ -2,6 +2,7 @@
 title: 'Modelling time varying heterogeneity in recurrent infection processes: an application to serological data'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Immunity and vaccination", "Statistical methods"]
 permalink: /publication/2017-01-01-modelling-time-varying-heterogeneity-in-recurrent-infection-processes-an-applica/
 venue: 'Journal of the Royal Statistical Society: Series C (Applied Statistics)'
 date: 2017-01-01

@@ -2,6 +2,7 @@
 title: 'A general frailty model to accommodate individual heterogeneity in the acquisition of multiple infections: An application to bivariate current status data'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Statistical methods"]
 permalink: /publication/2020-01-01-a-general-frailty-model-to-accommodate-individual-heterogeneity-in-the-acquisiti/
 venue: 'Statistics in Medicine'
 date: 2020-01-01

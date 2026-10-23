@@ -2,6 +2,7 @@
 title: 'SARS-CoV-2 mRNA vaccination is not associated with the induction of anti-HLA or non-HLA antibodies'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Immunity and vaccination"]
 permalink: /publication/2022-01-01-sars-cov-2-mrna-vaccination-is-not-associated-with-the-induction-of-anti-hla-or/
 venue: 'Transplant Immunology'
 date: 2022-01-01

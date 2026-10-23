@@ -2,6 +2,7 @@
 title: 'Modelling the early phase of the Belgian COVID-19 epidemic using a stochastic compartmental model and studying its implied future trajectories'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2021-01-01-modelling-the-early-phase-of-the-belgian-covid-19-epidemic-using-a-stochastic-co/
 venue: 'Epidemics'
 date: 2021-01-01

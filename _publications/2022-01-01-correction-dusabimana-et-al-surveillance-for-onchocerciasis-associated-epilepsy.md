@@ -2,6 +2,7 @@
 title: 'Correction: Dusabimana et al. Surveillance for Onchocerciasis-Associated Epilepsy and Ov16 IgG4 Testing of Children 6–10 Years Old Should Be Used to Identify Areas Where Onchocerciasis Elimination Programs Need Strengthening.  Pathogens  2022,  11 , 281'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2022-01-01-correction-dusabimana-et-al-surveillance-for-onchocerciasis-associated-epilepsy/
 venue: 'Pathogens'
 date: 2022-01-01

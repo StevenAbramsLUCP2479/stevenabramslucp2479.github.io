@@ -2,6 +2,7 @@
 title: 'Parametric overdispersed frailty models for current status data'
 collection: publications
 category: manuscripts
+topics: ["Statistical methods"]
 permalink: /publication/2017-01-01-parametric-overdispersed-frailty-models-for-current-status-data/
 venue: 'Biometrics'
 date: 2017-01-01

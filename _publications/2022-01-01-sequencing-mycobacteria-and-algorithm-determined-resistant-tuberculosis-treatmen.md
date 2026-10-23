@@ -2,6 +2,7 @@
 title: 'Sequencing Mycobacteria and Algorithm-determined Resistant Tuberculosis Treatment (SMARTT): a study protocol for a phase IV pragmatic randomized controlled patient management strategy trial'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2022-01-01-sequencing-mycobacteria-and-algorithm-determined-resistant-tuberculosis-treatmen/
 venue: 'Trials'
 date: 2022-01-01

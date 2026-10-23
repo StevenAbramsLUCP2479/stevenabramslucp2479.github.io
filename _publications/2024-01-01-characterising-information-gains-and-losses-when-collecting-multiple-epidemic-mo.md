@@ -2,6 +2,7 @@
 title: 'Characterising information gains and losses when collecting multiple epidemic model outputs'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2024-01-01-characterising-information-gains-and-losses-when-collecting-multiple-epidemic-mo/
 venue: 'Epidemics'
 date: 2024-01-01

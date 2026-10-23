@@ -2,6 +2,7 @@
 title: 'Quantiles of the conditional residual lifetime'
 collection: publications
 category: manuscripts
+topics: ["Statistical methods"]
 permalink: /publication/2021-01-01-quantiles-of-the-conditional-residual-lifetime/
 venue: 'Statistics'
 date: 2021-01-01

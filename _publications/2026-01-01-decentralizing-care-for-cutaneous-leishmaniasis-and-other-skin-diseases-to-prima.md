@@ -2,6 +2,7 @@
 title: 'Decentralizing care for cutaneous leishmaniasis and other skin diseases to primary health facilities in Southern Ethiopia: What are the needs?'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2026-01-01-decentralizing-care-for-cutaneous-leishmaniasis-and-other-skin-diseases-to-prima/
 venue: 'BMC Infectious Diseases'
 date: 2026-01-01

@@ -2,6 +2,7 @@
 title: 'Fluoroquinolone resistance in Escherichia coli isolates after exposure to non-fluoroquinolone antibiotics: A retrospective case-control study'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2020-01-01-fluoroquinolone-resistance-in-escherichia-coli-isolates-after-exposure-to-non-fl/
 venue: 'Journal of Antimicrobial Chemotherapy'
 date: 2020-01-01

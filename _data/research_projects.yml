@@ -1,0 +1,88 @@
+# Roles: existing CV, pp. 15–16. Project periods: institutional profiles.
+# https://www.uhasselt.be/en/who-is-who/steven-abrams
+# https://www.uantwerpen.be/en/staff/steven-abrams/research/
+- title: ESCAPE
+  url: https://www.escapepandemics.com/
+  summary: Combining epidemic data and models to support scalable, evidence-driven pandemic response plans
+    across Europe.
+  role: Principal investigator
+  period: 2023–2026
+  funding: Horizon Europe · Grant 101095619
+- title: ACCELERATE
+  url: https://www.accelerate-epi.be/
+  summary: Connecting individual-based epidemic models with health economics, statistical inference and
+    reinforcement learning to support public health decisions.
+  role: Co-investigator
+  period: 2023–2026
+  funding: FWO Junior Fundamental Research Project · G059423N
+- title: ECDC forecasting and scenario modelling
+  summary: European forecasting and scenario-modelling hubs for infectious diseases.
+  role: Principal investigator and co-investigator on framework contracts
+  funding: European Centre for Disease Prevention and Control (ECDC)
+  links:
+  - label: RespiCast forecasting hub
+    url: https://respicast.ecdc.europa.eu/
+  - label: RespiCompass scenario hub
+    url: https://respicompass.ecdc.europa.eu/
+- title: Solar Cookers for All
+  url: https://www.uhasselt.be/sc4all
+  summary: Developing and evaluating sustainable solar cooking solutions with the University of Lubumbashi
+    in the Democratic Republic of the Congo.
+  role: Principal investigator on the VLIR-UOS Short Initiative
+  period: 2023–2025 (Short Initiative)
+  funding: VLIR-UOS · Hasselt University and University of Lubumbashi
+  links:
+  - label: Day of Science slides (PDF)
+    url: /files/conferences/2025-day-of-science.pdf
+  - label: Related research
+    url: /publication/2025-01-01-charcoal-and-firewood-use-in-urban-areas-of-developing-countries-drivers-consequ/
+- title: Benefit–risk assessment of COVID-19 vaccines
+  url: https://catalogues.ema.europa.eu/node/3141/administrative-details
+  summary: Putting the benefits and risks of COVID-19 vaccination into context for populations in the
+    European Union.
+  role: Co-investigator
+  funding: European Medicines Agency (EMA)
+  links:
+  - label: 'BRAVE study: Vaxzevria'
+    url: /publication/2025-01-01-utilising-the-benefit-risk-assessment-of-vaccines-brave-toolkit-to-evaluate-the/
+  - label: 'BRAVE study: mRNA vaccines'
+    url: /publication/2025-01-01-an-extension-of-the-benefit-risk-assessment-of-vaccines-toolkit-to-evaluate-comi/
+- title: Bernstein-based estimation of the cross-ratio function
+  summary: Developing statistical methods to describe association in event-time data.
+  role: Co-investigator
+  period: 2022–2025
+  funding: FWO Junior Fundamental Research Project · G011022N
+  links:
+  - label: Read the methods paper
+    url: /publication/2024-01-01-bernstein-based-estimation-of-the-cross-ratio-function/
+- title: Malaria transmission and elimination
+  summary: Estimating age- and time-dependent malaria parameters and studying social networks to help
+    inform elimination strategies.
+  role: Principal investigator
+  period: 2020–2024
+  funding: DOCPRO4 Research Project
+  links:
+  - label: Review of mathematical and statistical models
+    url: /publication/2025-01-01-an-integrative-review-of-the-combined-use-of-mathematical-and-statistical-models/
+- title: RESTORE
+  url: https://covid-en-wetenschap.github.io/restore
+  summary: Realistic forecasting, control and preparedness for coming COVID-19 waves.
+  role: Co-investigator
+  period: 2020–2021
+  funding: FWO COVID-19 Project · G0G2920N
+- title: Time-varying association in censored event-time data
+  summary: Nonparametric estimation of changing association between two time-to-event outcomes.
+  role: Co-investigator
+  period: 2020–2024
+  funding: BOF Small Research Project
+- title: Pertussis resurgence in Belgium
+  summary: Combining serial seroprevalence and incidence data to estimate age- and time-dependent epidemiological
+    parameters.
+  role: Co-investigator
+  funding: FWO Project · R-7543
+- title: Measles, mumps and rubella surveillance
+  summary: Surveillance, outbreak assessment and outbreak management in collaboration with the Belgian
+    Scientific Institute of Public Health (WIV-ISP).
+  links:
+  - label: Research on measles immunity gaps
+    url: /publication/2022-01-01-identifying-immunity-gaps-for-measles-using-belgian-serial-serology-data/

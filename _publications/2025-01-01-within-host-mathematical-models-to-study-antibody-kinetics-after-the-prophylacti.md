@@ -2,6 +2,7 @@
 title: 'Within-host mathematical models to study antibody kinetics after the prophylactic Ebola vaccine in the Democratic Republic of the Congo'
 collection: publications
 category: manuscripts
+topics: ["Immunity and vaccination"]
 permalink: /publication/2025-01-01-within-host-mathematical-models-to-study-antibody-kinetics-after-the-prophylacti/
 venue: 'Vaccine'
 date: 2025-01-01

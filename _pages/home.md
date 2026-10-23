@@ -1,60 +1,40 @@
 ---
 permalink: /
-title: "Welcome"
+title: "Understanding infectious diseases through data and models"
 author_profile: true
+excerpt: "Steven Abrams — biostatistics, infectious disease modelling, immunity and vaccination."
 ---
 
-I am **Steven Abrams**, a biostatistician and medical statistician with research interests in
-**infectious disease epidemiology, survival analysis, serology, mathematical and statistical modelling,
-and vaccine research**.
+I am **Steven Abrams**, a biostatistician and medical statistician at **Hasselt University** and the **University of Antwerp**. I develop statistical and mathematical methods to understand infection, immunity and vaccination, and to inform public health decisions.
 
-My work focuses on the development and application of statistical and mathematical methods to better
-understand infectious disease dynamics, immunity, vaccination, and public health decision-making.
-
-<div style="margin-top: 1.5em; margin-bottom: 2em; display: flex; flex-wrap: wrap; gap: 0.75rem;">
-
-  <a href="/publications/" class="btn">Publications</a>
-
-  <a href="/projects/" class="btn">Research Projects</a>
-
-  <a href="/slides/" class="btn">Presentations</a>
-
-  <a href="/files/cv_steven_abrams.pdf"
-     class="btn"
-     target="_blank"
-     rel="noopener">
-    Curriculum Vitae
-  </a>
-
+<div class="site-actions">
+  <a href="{{ '/projects/' | relative_url }}" class="btn">Explore my research</a>
+  <a href="{{ '/contact/' | relative_url }}" class="btn">Contact me</a>
+  <a href="{{ '/files/cv_steven_abrams.pdf' | relative_url }}">Download CV (PDF)</a>
 </div>
 
-## Research
+## Research and selected work
 
-My research combines methodological developments in statistics with applications in infectious disease
-epidemiology and public health. Current and recent work includes:
+Three connected areas bring together my methodological research and collaborative work in epidemiology.
 
-- modelling antibody and serological data;
-- infectious disease transmission and outbreak risk;
-- survival and event-history analysis;
-- individual heterogeneity and frailty modelling;
-- vaccine effectiveness and correlates of protection;
-- quantitative methods for public health decision-making.
+<div class="research-grid">
+{% for highlight in site.data.research_highlights %}
+  <article class="research-card">
+    <h3>{{ highlight.title }}</h3>
+    <p>{{ highlight.summary }}</p>
+    <p class="research-card__label">Selected work · {{ highlight.year }}</p>
+    <h4><a href="{{ highlight.url | relative_url }}">{{ highlight.work }}</a></h4>
+    <p>{{ highlight.detail }}</p>
+  </article>
+{% endfor %}
+</div>
 
-## Selected work
+[Browse all publications]({{ '/publications/' | relative_url }}) · [Explore research projects]({{ '/projects/' | relative_url }})
 
-Explore my [journal publications](/publications/articles/), [book chapters](/publications/book-chapters/),
-[conference papers](/publications/conference-papers/), [preprints](/publications/preprints/), and
-[doctoral dissertations](/publications/dissertations/).
+## Teaching and science communication
 
-You can also find ongoing and completed work on my [research projects](/projects/) page.
+I share statistics and infectious disease research with students, teachers, health professionals and the public. Explore [workshops and educational resources]({{ '/science-communication/' | relative_url }}), or browse [conference talks and slides]({{ '/slides/' | relative_url }}).
 
 ## Code and reproducible research
 
-Some of my research code, teaching material, and related projects are available on GitHub.
-
-<a href="https://github.com/stevenabramslucp2479"
-   class="btn"
-   target="_blank"
-   rel="noopener">
-  View my GitHub profile
-</a>
+Research code and related projects are available on [GitHub](https://github.com/stevenabramslucp2479). Where resources are available for an individual paper, they are linked from its publication entry.

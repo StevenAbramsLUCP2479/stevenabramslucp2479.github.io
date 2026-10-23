@@ -2,6 +2,7 @@
 title: 'Resurgence risk for measles, mumps and rubella in France in 2018 and 2020'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2018-01-01-resurgence-risk-for-measles-mumps-and-rubella-in-france-in-2018-and-2020/
 venue: 'Eurosurveillance'
 date: 2018-01-01

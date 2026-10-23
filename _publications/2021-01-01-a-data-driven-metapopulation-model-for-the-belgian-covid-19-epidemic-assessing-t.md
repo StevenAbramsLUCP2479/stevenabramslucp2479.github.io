@@ -2,6 +2,7 @@
 title: 'A data-driven metapopulation model for the Belgian COVID-19 epidemic: assessing the impact of lockdown and exit strategies'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2021-01-01-a-data-driven-metapopulation-model-for-the-belgian-covid-19-epidemic-assessing-t/
 venue: 'BMC Infectious Diseases'
 date: 2021-01-01

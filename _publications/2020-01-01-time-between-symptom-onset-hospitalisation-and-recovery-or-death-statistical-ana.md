@@ -2,6 +2,7 @@
 title: 'Time between Symptom Onset, Hospitalisation and Recovery or Death: Statistical Analysis of Belgian COVID-19 Patients'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2020-01-01-time-between-symptom-onset-hospitalisation-and-recovery-or-death-statistical-ana/
 venue: 'International Journal of Environmental Research and Public Health'
 date: 2020-01-01

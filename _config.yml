@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Steven Abrams"
 title_separator          : "-"
 name                     : &name "Steven Abrams"
-description              : &description "Steven Abrams' academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Steven Abrams develops statistical and mathematical models to understand infectious diseases, immunity and vaccination. Research, publications and teaching resources."
 url                      : https://stevenabramslucp2479.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,11 +26,11 @@ author:
   avatar           : "SA_figure.jpg"
   name             : "Steven Abrams"
   pronouns         : # example: "she/her"  
-  bio              : "Assistant professor at Hasselt University (UHasselt) and the University of Antwerp, working on statistical and mathematical modelling of infectious disease data."
+  bio              : "Biostatistician studying infectious diseases, immunity and vaccination."
   location         : "Belgium"
   employer         : "Hasselt University & University of Antwerp"
   uri              : # URL
-  email            : # Add an email address to display it in the sidebar
+  email            : "steven.abrams@uhasselt.be"
 
   # Academic websites
   academia         : # URL
@@ -92,6 +92,8 @@ publication_category:
     title: 'Dissertations'
   conferences:
     title: 'Conference Papers'
+  preprints:
+    title: 'Preprints'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

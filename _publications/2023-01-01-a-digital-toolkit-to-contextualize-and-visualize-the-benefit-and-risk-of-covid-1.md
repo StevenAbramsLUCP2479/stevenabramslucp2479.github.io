@@ -2,6 +2,7 @@
 title: 'A digital toolkit to contextualize and visualize the benefit and risk of COVID-19 vaccines in the European union'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Immunity and vaccination"]
 permalink: /publication/2023-01-01-a-digital-toolkit-to-contextualize-and-visualize-the-benefit-and-risk-of-covid-1/
 venue: 'Pharmacoepidemiology and Drug Safety'
 date: 2023-01-01

@@ -1,0 +1,18 @@
+<article class="publication-card" data-publication data-year="{{ post.date | date: '%Y' }}" data-topics="{{ post.topics | join: '|' | escape }}">
+  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  <p class="publication-card__meta"><em>{{ post.venue }}</em> · {{ post.date | date: '%Y' }}{% if post.category == 'preprints' %} · Preprint{% endif %}</p>
+  {% if post.topics %}<p class="publication-card__topics">{{ post.topics | join: ' · ' }}</p>{% endif %}
+  <div class="publication-card__links">
+    {% if post.doi %}<a href="https://doi.org/{{ post.doi }}">DOI</a>{% endif %}
+    {% if post.paperurl %}<a href="{{ post.paperurl }}">Full text</a>{% endif %}
+    {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+    {% if post.bibtexurl %}<a href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}
+    {% if post.published_version %}<a href="{{ post.published_version | relative_url }}">Published version</a>{% endif %}
+  </div>
+  {% if post.citation %}
+  <details class="publication-card__citation">
+    <summary>Citation<span class="sr-only"> for {{ post.title | strip_html }}</span></summary>
+    <p>{{ post.citation | replace: 'Abrams, S.', '<strong>Abrams, S.</strong>' | replace: 'ABRAMS, S.', '<strong>ABRAMS, S.</strong>' }}</p>
+  </details>
+  {% endif %}
+</article>
