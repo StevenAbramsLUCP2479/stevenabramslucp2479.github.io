@@ -4,7 +4,7 @@ collection: publications
 category: theses
 permalink: /publication/2011-01-01-the-trivariate-correlated-gamma-frailty-model-for-current-status-data/
 date: 2011-01-01
-citation: '(2011) &quot;The trivariate correlated gamma frailty model for current status data.&quot;'
+citation: 'Abrams, S. (2011) &quot;The trivariate correlated gamma frailty model for current status data.&quot;'
 ---
 
 This publication is available in the institutional repository.

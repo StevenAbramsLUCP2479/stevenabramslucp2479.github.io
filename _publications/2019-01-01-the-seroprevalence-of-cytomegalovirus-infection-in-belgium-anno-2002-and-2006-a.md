@@ -2,6 +2,7 @@
 title: 'The seroprevalence of cytomegalovirus infection in Belgium anno 2002 and 2006: A comparative analysis with hepatitis a virus seroprevalence'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Immunity and vaccination"]
 permalink: /publication/2019-01-01-the-seroprevalence-of-cytomegalovirus-infection-in-belgium-anno-2002-and-2006-a/
 venue: 'Epidemiology and Infection'
 date: 2019-01-01

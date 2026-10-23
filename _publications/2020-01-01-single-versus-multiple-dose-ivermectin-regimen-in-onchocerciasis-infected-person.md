@@ -2,6 +2,7 @@
 title: 'Single versus Multiple Dose Ivermectin Regimen in Onchocerciasis-Infected Persons with Epilepsy Treated with Phenobarbital: A Randomized Clinical Trial in the Democratic Republic of Congo'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2020-01-01-single-versus-multiple-dose-ivermectin-regimen-in-onchocerciasis-infected-person/
 venue: 'Pathogens'
 date: 2020-01-01

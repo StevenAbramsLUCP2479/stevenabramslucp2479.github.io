@@ -2,6 +2,7 @@
 title: 'Nonparametric estimation of the cross ratio function'
 collection: publications
 category: manuscripts
+topics: ["Statistical methods"]
 permalink: /publication/2020-01-01-nonparametric-estimation-of-the-cross-ratio-function/
 venue: 'Annals of the Institute of Statistical Mathematics'
 date: 2020-01-01

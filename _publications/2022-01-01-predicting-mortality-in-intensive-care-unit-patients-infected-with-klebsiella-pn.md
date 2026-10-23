@@ -2,6 +2,7 @@
 title: 'Predicting mortality in intensive care unit patients infected with Klebsiella pneumoniae: A retrospective cohort study'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2022-01-01-predicting-mortality-in-intensive-care-unit-patients-infected-with-klebsiella-pn/
 venue: 'Journal of Infection and Chemotherapy'
 date: 2022-01-01

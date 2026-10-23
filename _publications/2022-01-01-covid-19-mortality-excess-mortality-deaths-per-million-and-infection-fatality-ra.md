@@ -2,6 +2,7 @@
 title: 'COVID-19 mortality, excess mortality, deaths per million and infection fatality ratio, Belgium, 9 March 2020 to 28 June 2020'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2022-01-01-covid-19-mortality-excess-mortality-deaths-per-million-and-infection-fatality-ra/
 venue: 'Eurosurveillance'
 date: 2022-01-01

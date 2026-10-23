@@ -2,6 +2,7 @@
 title: 'Community-Based Interventions for Cardiovascular Disease Prevention in Low-and Middle-Income Countries: A Systematic Review'
 collection: publications
 category: manuscripts
+topics: ["Clinical and public health research"]
 permalink: /publication/2021-01-01-community-based-interventions-for-cardiovascular-disease-prevention-in-low-and-m/
 venue: 'Public Health Reviews'
 date: 2021-01-01

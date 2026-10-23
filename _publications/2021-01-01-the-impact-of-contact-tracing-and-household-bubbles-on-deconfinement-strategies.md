@@ -2,6 +2,7 @@
 title: 'The impact of contact tracing and household bubbles on deconfinement strategies for COVID-19'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2021-01-01-the-impact-of-contact-tracing-and-household-bubbles-on-deconfinement-strategies/
 venue: 'Nature Communications'
 date: 2021-01-01

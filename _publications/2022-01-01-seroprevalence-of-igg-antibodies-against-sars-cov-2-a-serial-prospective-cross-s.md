@@ -2,6 +2,7 @@
 title: 'Seroprevalence of IgG antibodies against SARS-CoV-2 – a serial prospective cross-sectional nationwide study of residual samples, Belgium, March to October 2020'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Immunity and vaccination"]
 permalink: /publication/2022-01-01-seroprevalence-of-igg-antibodies-against-sars-cov-2-a-serial-prospective-cross-s/
 venue: 'Eurosurveillance'
 date: 2022-01-01

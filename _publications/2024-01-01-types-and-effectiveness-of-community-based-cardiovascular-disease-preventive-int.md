@@ -2,6 +2,7 @@
 title: 'Types and Effectiveness of Community-Based Cardiovascular Disease Preventive Interventions in Reducing Alcohol Consumption: A Systematic Review and Meta-Analysis'
 collection: publications
 category: manuscripts
+topics: ["Clinical and public health research"]
 permalink: /publication/2024-01-01-types-and-effectiveness-of-community-based-cardiovascular-disease-preventive-int/
 venue: 'Cureus Journal of Medical Science'
 date: 2024-01-01

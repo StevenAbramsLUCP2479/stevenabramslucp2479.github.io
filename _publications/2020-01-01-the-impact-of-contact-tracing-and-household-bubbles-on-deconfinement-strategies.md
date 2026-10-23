@@ -1,7 +1,9 @@
 ---
 title: 'The impact of contact tracing and household bubbles on deconfinement strategies for COVID-19: An individual-based modelling study'
 collection: publications
-category: manuscripts
+category: preprints
+published_version: /publication/2021-01-01-the-impact-of-contact-tracing-and-household-bubbles-on-deconfinement-strategies/
+topics: ["Infectious diseases"]
 permalink: /publication/2020-01-01-the-impact-of-contact-tracing-and-household-bubbles-on-deconfinement-strategies/
 venue: 'medRxiv'
 date: 2020-01-01
@@ -10,3 +12,5 @@ citation: 'Willem, L., Abrams, S., Petrof, O., Coletti, P., Kuylen, E., Libin, P
 ---
 
 This publication is available via [DOI](https://doi.org/10.1101/2020.07.01.20144444).
+
+[Read the published version](/publication/2021-01-01-the-impact-of-contact-tracing-and-household-bubbles-on-deconfinement-strategies/).

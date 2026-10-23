@@ -2,6 +2,7 @@
 title: 'Comparison of Diagnostic Tests for  Onchocerca volvulus  in the Democratic Republic of Congo'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2020-01-01-comparison-of-diagnostic-tests-for-onchocerca-volvulus-in-the-democratic-republi/
 venue: 'Pathogens'
 date: 2020-01-01

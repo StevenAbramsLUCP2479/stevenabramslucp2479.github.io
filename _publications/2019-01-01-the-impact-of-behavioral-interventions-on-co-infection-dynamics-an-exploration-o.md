@@ -2,6 +2,7 @@
 title: 'The impact of behavioral interventions on co-infection dynamics: An exploration of the effects of home isolation'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2019-01-01-the-impact-of-behavioral-interventions-on-co-infection-dynamics-an-exploration-o/
 venue: 'Journal of Theoretical Biology'
 date: 2019-01-01

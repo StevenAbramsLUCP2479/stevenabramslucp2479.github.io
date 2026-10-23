@@ -2,6 +2,7 @@
 title: 'Urinary N-acetyltyramine-O,β-glucuronide in persons with onchocerciasis-associated epilepsy'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2020-01-01-urinary-n-acetyltyramine-o-glucuronide-in-persons-with-onchocerciasis-associated/
 venue: 'Pathogens'
 date: 2020-01-01

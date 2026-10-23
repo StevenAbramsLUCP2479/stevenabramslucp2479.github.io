@@ -2,6 +2,7 @@
 title: 'Correlated gamma frailty models for bivariate survival time data'
 collection: publications
 category: manuscripts
+topics: ["Statistical methods"]
 permalink: /publication/2019-01-01-correlated-gamma-frailty-models-for-bivariate-survival-time-data/
 venue: 'Statistical Methods in Medical Research'
 date: 2019-01-01

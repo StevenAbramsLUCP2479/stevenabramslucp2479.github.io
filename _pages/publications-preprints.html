@@ -12,7 +12,7 @@ author_profile: true
 </p>
 
 <p>
-  Research manuscripts currently available as preprints.
+  Research manuscripts shared before journal publication. Earlier versions are retained below, with links to published articles where identified.
 </p>
 
 <div style="margin-top: 2em;">
@@ -55,3 +55,8 @@ author_profile: true
   </div>
 
 </div>
+<h2>Earlier preprints</h2>
+{% assign preprints = site.publications | where: "category", "preprints" | sort: "date" | reverse %}
+{% for post in preprints %}
+  {% include publication-card.html %}
+{% endfor %}

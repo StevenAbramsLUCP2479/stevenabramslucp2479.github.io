@@ -2,6 +2,7 @@
 title: 'Dietary outcomes of community-based cardiovascular disease preventive interventions: a systematic review and meta-analysis'
 collection: publications
 category: manuscripts
+topics: ["Clinical and public health research"]
 permalink: /publication/2023-01-01-dietary-outcomes-of-community-based-cardiovascular-disease-preventive-interventi/
 venue: 'Public Health Nutrition'
 date: 2023-01-01

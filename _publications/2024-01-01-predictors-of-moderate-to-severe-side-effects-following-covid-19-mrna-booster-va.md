@@ -2,6 +2,7 @@
 title: 'Predictors of moderate-to-severe side-effects following COVID-19 mRNA booster vaccination: a prospective cohort study among primary health care providers in Belgium'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Immunity and vaccination"]
 permalink: /publication/2024-01-01-predictors-of-moderate-to-severe-side-effects-following-covid-19-mrna-booster-va/
 venue: 'BMC Infectious Diseases'
 date: 2024-01-01

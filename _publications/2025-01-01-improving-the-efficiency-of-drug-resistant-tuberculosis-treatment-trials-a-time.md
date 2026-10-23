@@ -2,6 +2,7 @@
 title: 'Improving the efficiency of drug resistant tuberculosis treatment trials: a time-to-event alternative marker for bacteriological response and adaptive minimization for randomization'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Statistical methods"]
 permalink: /publication/2025-01-01-improving-the-efficiency-of-drug-resistant-tuberculosis-treatment-trials-a-time/
 venue: 'BMC Medical Research Methodology'
 date: 2025-01-01

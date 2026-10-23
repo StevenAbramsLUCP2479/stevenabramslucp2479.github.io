@@ -2,6 +2,7 @@
 title: 'Sample size calculation for estimating key epidemiological parameters using serological data and mathematical modelling'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Immunity and vaccination", "Statistical methods"]
 permalink: /publication/2019-01-01-sample-size-calculation-for-estimating-key-epidemiological-parameters-using-sero/
 venue: 'BMC Medical Research Methodology'
 date: 2019-01-01

@@ -1,7 +1,9 @@
 ---
 title: 'Modelling longitudinal binary outcomes with outcome-dependent observation times: An application to a malaria cohort study'
 collection: publications
-category: manuscripts
+category: preprints
+published_version: /publication/2022-01-01-modelling-longitudinal-binary-outcomes-with-outcome-dependent-observation-times/
+topics: ["Infectious diseases", "Statistical methods"]
 permalink: /publication/2018-01-01-modelling-longitudinal-binary-outcomes-with-outcome-dependent-observation-times/
 venue: 'bioRxiv'
 date: 2018-01-01
@@ -10,3 +12,5 @@ citation: 'Mugenyi, L., Herzog, S.A., Hens, N., & Abrams, S. (2018) &quot;Modell
 ---
 
 This publication is available via [DOI](https://doi.org/10.1101/252411).
+
+[Read the published version](/publication/2022-01-01-modelling-longitudinal-binary-outcomes-with-outcome-dependent-observation-times/).

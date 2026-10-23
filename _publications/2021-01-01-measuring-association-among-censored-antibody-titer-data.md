@@ -2,6 +2,7 @@
 title: 'Measuring association among censored antibody titer data'
 collection: publications
 category: manuscripts
+topics: ["Immunity and vaccination", "Statistical methods"]
 permalink: /publication/2021-01-01-measuring-association-among-censored-antibody-titer-data/
 venue: 'Statistics in Medicine'
 date: 2021-01-01

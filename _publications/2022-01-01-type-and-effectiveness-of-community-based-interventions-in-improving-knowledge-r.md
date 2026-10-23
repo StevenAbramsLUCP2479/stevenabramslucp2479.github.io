@@ -2,6 +2,7 @@
 title: 'Type and effectiveness of community-based interventions in improving knowledge related to cardiovascular diseases and risk factors: A systematic review'
 collection: publications
 category: manuscripts
+topics: ["Clinical and public health research"]
 permalink: /publication/2022-01-01-type-and-effectiveness-of-community-based-interventions-in-improving-knowledge-r/
 venue: 'American Journal of Preventive Cardiology'
 date: 2022-01-01

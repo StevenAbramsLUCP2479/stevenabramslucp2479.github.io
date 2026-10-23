@@ -2,6 +2,7 @@
 title: 'Assessing the risk of measles resurgence in a highly vaccinated population: Belgium anno 2013'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Immunity and vaccination"]
 permalink: /publication/2015-01-01-assessing-the-risk-of-measles-resurgence-in-a-highly-vaccinated-population-belgi/
 venue: 'Eurosurveillance'
 date: 2015-01-01

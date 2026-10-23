@@ -2,6 +2,7 @@
 title: 'Bernstein–based Nonparametric Estimation of the Cross Ratio Function under Univariate Right Censoring'
 collection: publications
 category: manuscripts
+topics: ["Statistical methods"]
 permalink: /publication/2026-01-01-bernstein-based-nonparametric-estimation-of-the-cross-ratio-function-under-univa/
 venue: 'Dependence Modeling'
 date: 2026-01-01

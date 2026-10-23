@@ -1,7 +1,9 @@
 ---
 title: 'Seroprevalence of IgG antibodies against SARS coronavirus 2 in Belgium - A serial prospective cross-sectional nationwide study of residual samples'
 collection: publications
-category: manuscripts
+category: preprints
+published_version: /publication/2022-01-01-seroprevalence-of-igg-antibodies-against-sars-cov-2-a-serial-prospective-cross-s/
+topics: ["Infectious diseases", "Immunity and vaccination"]
 permalink: /publication/2020-01-01-seroprevalence-of-igg-antibodies-against-sars-coronavirus-2-in-belgium-a-serial/
 venue: 'medRxiv'
 date: 2020-01-01
@@ -10,3 +12,5 @@ citation: 'Herzog, S., De Bie, J., Abrams, S., Wouters, I., Ekinci, E., Patteet,
 ---
 
 This publication is available via [DOI](https://doi.org/10.1101/2020.06.08.20125179).
+
+[Read the published version](/publication/2022-01-01-seroprevalence-of-igg-antibodies-against-sars-cov-2-a-serial-prospective-cross-s/).

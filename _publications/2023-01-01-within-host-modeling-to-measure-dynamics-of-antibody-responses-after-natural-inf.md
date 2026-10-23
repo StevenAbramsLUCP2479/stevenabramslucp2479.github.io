@@ -2,6 +2,7 @@
 title: 'Within-host modeling to measure dynamics of antibody responses after natural infection or vaccination: A systematic review'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases", "Immunity and vaccination"]
 permalink: /publication/2023-01-01-within-host-modeling-to-measure-dynamics-of-antibody-responses-after-natural-inf/
 venue: 'Vaccine'
 date: 2023-01-01

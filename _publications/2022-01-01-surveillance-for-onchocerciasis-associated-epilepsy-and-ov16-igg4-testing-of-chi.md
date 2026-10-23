@@ -2,6 +2,7 @@
 title: 'Surveillance for Onchocerciasis-Associated Epilepsy and OV16 IgG4 Testing of Children 6&ndash;10 Years Old Should Be Used to Identify Areas Where Onchocerciasis Elimination Programs Need Strengthening'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2022-01-01-surveillance-for-onchocerciasis-associated-epilepsy-and-ov16-igg4-testing-of-chi/
 venue: 'Pathogens'
 date: 2022-01-01

@@ -2,6 +2,7 @@
 title: 'COL 2-03 - Resurgence risk for measles, mumps and rubella in France in 2016'
 collection: publications
 category: manuscripts
+topics: ["Infectious diseases"]
 permalink: /publication/2016-01-01-col-2-03-resurgence-risk-for-measles-mumps-and-rubella-in-france-in-2016/
 venue: 'Medecine et Maladies Infectieuses'
 date: 2016-01-01

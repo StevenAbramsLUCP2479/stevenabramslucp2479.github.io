@@ -2,6 +2,7 @@
 title: 'Donor-derived cell-free DNA as a biomarker for rejection after kidney transplantation: a systematic review and meta-analysis'
 collection: publications
 category: manuscripts
+topics: ["Clinical and public health research"]
 permalink: /publication/2020-01-01-donor-derived-cell-free-dna-as-a-biomarker-for-rejection-after-kidney-transplant/
 venue: 'Transplant International'
 date: 2020-01-01

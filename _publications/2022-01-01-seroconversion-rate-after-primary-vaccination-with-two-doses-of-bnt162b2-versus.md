@@ -2,6 +2,7 @@
 title: 'Seroconversion rate after primary vaccination with two doses of BNT162b2 versus mRNA-1273 in solid organ transplant recipients: a systematic review and meta-analysis'
 collection: publications
 category: manuscripts
+topics: ["Immunity and vaccination"]
 permalink: /publication/2022-01-01-seroconversion-rate-after-primary-vaccination-with-two-doses-of-bnt162b2-versus/
 venue: 'Nephrology Dialysis Transplantation'
 date: 2022-01-01
