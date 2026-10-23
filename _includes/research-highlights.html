@@ -1,0 +1,30 @@
+{% assign highlight_publications = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+{% if highlight_publications.size > 0 %}
+<section class="research-highlights" id="research-highlights" aria-labelledby="highlights-heading" aria-roledescription="carousel">
+  <h2 id="highlights-heading">Research highlights</h2>
+  <p>Explore publications from across my research interests and publication years.<span data-highlights-intro hidden> The selection changes daily, with my latest work shown first.</span></p>
+  <div class="highlights-controls" data-highlights-controls hidden>
+    <button type="button" class="btn" data-highlights-toggle aria-controls="highlights-slides">Pause rotation</button>
+    <button type="button" class="highlights-button" data-highlights-previous aria-controls="highlights-slides">Previous</button>
+    <button type="button" class="highlights-button" data-highlights-next aria-controls="highlights-slides">Next</button>
+    <span class="highlights-position" data-highlights-position aria-live="off"></span>
+  </div>
+  <div class="highlights-slides" id="highlights-slides" aria-live="off">
+{% for publication in highlight_publications -%}
+{% assign highlight = site.data.research_highlights | where: "url", publication.url | first -%}
+    <article class="highlight-slide" data-highlight data-year="{{ publication.date | date: '%Y' }}"{% unless forloop.first %} hidden{% endunless %}>
+      <p class="highlight-slide__meta"><span class="highlight-slide__year">{{ publication.date | date: '%Y' }}</span> <span>{{ publication.venue }}</span></p>
+      <h3><a href="{{ publication.url | relative_url }}">{{ publication.title }}</a></h3>
+      {% if highlight.detail %}<p>{{ highlight.detail }}</p>{% endif -%}
+      {% if publication.topics %}<p class="highlight-slide__topics">{{ publication.topics | join: ' · ' }}</p>{% endif -%}
+      <div class="highlight-slide__links">
+        <a href="{{ publication.url | relative_url }}">Publication details</a>
+        {% if publication.doi %}<a href="https://doi.org/{{ publication.doi }}">Read via DOI</a>{% endif -%}
+      </div>
+    </article>
+{% endfor -%}
+  </div>
+  <p class="sr-only" data-highlights-announcement role="status" aria-live="polite" aria-atomic="true"></p>
+</section>
+<script src="{{ '/assets/js/research-highlights.js' | relative_url }}" defer></script>
+{% endif -%}
