@@ -52,22 +52,26 @@
     changes across their distributions, with particular applications to event-time data.
   details:
   - >-
-    The cross-ratio function describes local dependence that a single overall correlation measure
-    can conceal. This line of research uses Bernstein polynomials to obtain smooth, nonparametric
-    estimates without imposing a fixed parametric form on that dependence.
+    The cross ratio function, originally introduced by Clayton (1978), describes local dependence that a global association measure
+    can conceal. This line of research uses Bernstein polynomials to obtain a smooth, nonparametric
+    estimator of the cross ratio function without imposing a fixed parametric form for the dependence. 
+    More specifically, to date nonparametric estimators have been developed for bivariate time-to-event data,
+    including data subject to univariate right censoring, and for uncensored continuous data.
   - >-
-    The methodological foundation is Abrams et al. (2020), published in Annals of the Institute of
-    Statistical Mathematics. The paper constructs an estimator from the survival copula and its
-    derivatives, establishes asymptotic normality, and evaluates performance through simulations
-    and an application to household food expenditure and income. Abrams et al. (2024), in Statistics,
-    develops an alternative Bernstein-based plug-in estimator using the joint survival function
-    and its derivatives. It also establishes asymptotic normality and assesses the estimator using
-    simulations and hospital data.
+    The methodological foundation is found in Abrams et al. (2020). In this paper, we construct a 
+    Bernstein-based estimator for the cross ratio function through estimating the conditional hazard functions
+    as numerator and denominator of the cross ratio function, and we establish asymptotic normality of the estimator,
+    and evaluate its finite-sample performance through simulations. Finally, a data application to household food 
+    expenditure and income illustrates the proposed estimator. In Abrams et al. (2024), we propose an 
+    alternative Bernstein-based plug-in estimator based on the estimation of the joint survival function
+    and its derivatives. We establish asymptotic normality of the estimator and assess the performance of the 
+    estimator using simulations and based on real-life hospital data. Both papers focus on the analysis of uncensored
+    bivariate time-to-event data.
   - >-
-    Sercik et al. (2026), in Dependence Modeling, extends this approach to data subject to univariate
-    right censoring. Bernstein estimates of the survival
-    copula, its partial derivatives and its density provide a smooth estimate of local association.
-    Simulation experiments and a real-data application assess its finite-sample performance.
+    Sercik et al. (2026) extend the aforementioned approach to data subject to univariate
+    right censoring. Bernstein estimates of the survival copula, its partial derivatives and its density provide 
+    a smooth estimate of local association across the bivariate domain, with particular attention to regions with 
+    sufficient uncensored information. Simulation experiments and a real-data application assess its finite-sample performance.
   role: Co-investigator
   period: 2022–2025
   funding: FWO Junior Fundamental Research Project · G011022N
@@ -109,21 +113,20 @@
     Scientific Institute of Public Health (WIV-ISP).
   details:
   - >-
-    This research combines serological surveys, vaccination coverage and modelling to identify
+    This research combines (serial) serological survey data, vaccination coverage and modelling to identify
     immunity gaps and assess outbreak potential in highly vaccinated populations. The aim is to
     understand which age groups and geographical areas remain susceptible and how this susceptibility
     may change over time.
   - >-
-    Abrams, Beutels and Hens (2014), in the American Journal of Epidemiology, is the original
-    methodological paper in this line of outbreak-risk research. Using Belgian mumps data, it
-    develops a method to identify areas with high outbreak potential and project effective
-    reproduction numbers, incorporating primary vaccine failure and waning immunity. Hens et al.
-    (2015), in Eurosurveillance, applies the multicohort approach to measles, combining spatial
-    serology, vaccination coverage and social-contact data. The analysis identifies the potential
-    for resurgence, particularly during school terms, and highlights susceptibility among
-    adolescents and young adults and the vulnerability of infants.
+    Abrams, Beutels and Hens (2014) constitutes the original methodological paper in this line of 
+    outbreak-risk research. Using Belgian mumps data, a multi-cohort model is used to identify areas 
+    with high outbreak potential and to project effective reproduction numbers, incorporating primary 
+    vaccine failure and waning immunity. In Hens et al. (2015) the multi-cohort approach is applied to 
+    measles, combining spatial serology, vaccination coverage and social-contact data. The analysis 
+    identifies the potential for resurgence, particularly during school terms, and highlights susceptibility 
+    among adolescents and young adults and the vulnerability of infants.
   - >-
-    Schenk et al. (2022), in Vaccine, adds a Bayesian cohort analysis of Belgian serological surveys
+    Schenk et al. (2022) adds a Bayesian cohort analysis of Belgian serological surveys
     from 2002, 2006 and 2013. It identifies persistent measles immunity gaps in birth cohorts offered
     vaccination at suboptimal coverage during the early years of routine vaccination. Together,
     these studies connect the original outbreak-risk methodology with later evidence on population
