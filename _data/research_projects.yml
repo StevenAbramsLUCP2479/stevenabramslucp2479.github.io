@@ -48,13 +48,37 @@
   - label: 'BRAVE study: mRNA vaccines'
     url: /publication/2025-01-01-an-extension-of-the-benefit-risk-assessment-of-vaccines-toolkit-to-evaluate-comi/
 - title: Bernstein-based estimation of the cross-ratio function
-  summary: Developing statistical methods to describe association in event-time data.
+  summary: Developing flexible statistical methods to describe how the association between two outcomes
+    changes across their distributions, with particular applications to event-time data.
+  details:
+  - >-
+    The cross-ratio function describes local dependence that a single overall correlation measure
+    can conceal. This line of research uses Bernstein polynomials to obtain smooth, nonparametric
+    estimates without imposing a fixed parametric form on that dependence.
+  - >-
+    The methodological foundation is Abrams et al. (2020), published in Annals of the Institute of
+    Statistical Mathematics. The paper constructs an estimator from the survival copula and its
+    derivatives, establishes asymptotic normality, and evaluates performance through simulations
+    and an application to household food expenditure and income. Abrams et al. (2024), in Statistics,
+    develops an alternative Bernstein-based plug-in estimator using the joint survival function
+    and its derivatives. It also establishes asymptotic normality and assesses the estimator using
+    simulations and hospital data.
+  - >-
+    Sercik et al. (2026), in Dependence Modeling, extends this approach to data subject to univariate
+    right censoring. Bernstein estimates of the survival
+    copula, its partial derivatives and its density provide a smooth estimate of local association.
+    Simulation experiments and a real-data application assess its finite-sample performance.
   role: Co-investigator
   period: 2022–2025
   funding: FWO Junior Fundamental Research Project · G011022N
+  links_heading: Related publications
   links:
-  - label: Read the methods paper
+  - label: 'Abrams et al. (2020) — Nonparametric estimation of the cross ratio function. Annals of the Institute of Statistical Mathematics, 72, 771–801.'
+    url: /publication/2020-01-01-nonparametric-estimation-of-the-cross-ratio-function/
+  - label: 'Abrams et al. (2024) — Bernstein-based estimation of the cross ratio function. Statistics, 58(1), 230–246.'
     url: /publication/2024-01-01-bernstein-based-estimation-of-the-cross-ratio-function/
+  - label: 'Sercik et al. (2026) — Bernstein-based nonparametric estimation of the cross ratio function under univariate right censoring. Dependence Modeling, 14(1).'
+    url: /publication/2026-01-01-bernstein-based-nonparametric-estimation-of-the-cross-ratio-function-under-univa/
 - title: Malaria transmission and elimination
   summary: Estimating age- and time-dependent malaria parameters and studying social networks to help
     inform elimination strategies.
@@ -83,6 +107,32 @@
 - title: Measles, mumps and rubella surveillance
   summary: Surveillance, outbreak assessment and outbreak management in collaboration with the Belgian
     Scientific Institute of Public Health (WIV-ISP).
+  details:
+  - >-
+    This research combines serological surveys, vaccination coverage and modelling to identify
+    immunity gaps and assess outbreak potential in highly vaccinated populations. The aim is to
+    understand which age groups and geographical areas remain susceptible and how this susceptibility
+    may change over time.
+  - >-
+    Abrams, Beutels and Hens (2014), in the American Journal of Epidemiology, is the original
+    methodological paper in this line of outbreak-risk research. Using Belgian mumps data, it
+    develops a method to identify areas with high outbreak potential and project effective
+    reproduction numbers, incorporating primary vaccine failure and waning immunity. Hens et al.
+    (2015), in Eurosurveillance, applies the multicohort approach to measles, combining spatial
+    serology, vaccination coverage and social-contact data. The analysis identifies the potential
+    for resurgence, particularly during school terms, and highlights susceptibility among
+    adolescents and young adults and the vulnerability of infants.
+  - >-
+    Schenk et al. (2022), in Vaccine, adds a Bayesian cohort analysis of Belgian serological surveys
+    from 2002, 2006 and 2013. It identifies persistent measles immunity gaps in birth cohorts offered
+    vaccination at suboptimal coverage during the early years of routine vaccination. Together,
+    these studies connect the original outbreak-risk methodology with later evidence on population
+    immunity, providing a basis for assessing targeted vaccination strategies.
+  links_heading: Related publications
   links:
-  - label: Research on measles immunity gaps
+  - label: 'Abrams, Beutels & Hens (2014) — Assessing Mumps Outbreak Risk in Highly Vaccinated Populations Using Spatial Seroprevalence Data. American Journal of Epidemiology, 179(8), 1006–1017. Original methodological paper.'
+    url: /publication/2014-01-01-assessing-mumps-outbreak-risk-in-highly-vaccinated-populations-using-spatial-ser/
+  - label: 'Hens et al. (2015) — Assessing the risk of measles resurgence in a highly vaccinated population: Belgium anno 2013. Eurosurveillance, 20(1), 20998.'
+    url: /publication/2015-01-01-assessing-the-risk-of-measles-resurgence-in-a-highly-vaccinated-population-belgi/
+  - label: 'Schenk et al. (2022) — Identifying immunity gaps for measles using Belgian serial serology data. Vaccine, 40(26), 3676–3683.'
     url: /publication/2022-01-01-identifying-immunity-gaps-for-measles-using-belgian-serial-serology-data/
