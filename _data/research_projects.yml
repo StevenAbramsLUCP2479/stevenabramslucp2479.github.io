@@ -95,11 +95,53 @@
   - label: Review of mathematical and statistical models
     url: /publication/2025-01-01-an-integrative-review-of-the-combined-use-of-mathematical-and-statistical-models/
 - title: RESTORE
+  id: restore
+  details_url: /projects/restore/
   url: https://covid-en-wetenschap.github.io/restore
   summary: Realistic forecasting, control and preparedness for coming COVID-19 waves.
+  details:
+  - >-
+    RESTORE brought together mathematical modelling, epidemiological data and interdisciplinary
+    expertise to support Belgium’s response to the COVID-19 pandemic. The project aimed to anticipate
+    future epidemic waves, assess the consequences of control measures and help healthcare institutions
+    and policymakers prepare for changing hospital demand. It provided the starting point for a
+    broader interuniversity collaboration involving research groups across Belgium.
+  - >-
+    A central component was the development and comparison of mathematical models describing
+    SARS-CoV-2 transmission and its consequences for hospital admissions. These models used Belgian
+    hospitalisation, mortality, serological and social-contact data, alongside information on settings
+    such as nursing homes. Different modelling approaches captured complementary aspects of the
+    epidemic. Combining their outputs in an ensemble allowed the consortium to examine how conclusions
+    depended on model structure and assumptions.
+  - >-
+    As a co-investigator, I contributed to the mathematical modelling and collaborative scenario
+    analyses. Our work included a stochastic compartmental model of the Belgian epidemic, described
+    in Abrams et al. (2021), which formed one of the modelling approaches used in the RESTORE reports.
+    Related collaborative research examined geographical transmission patterns, lockdown and exit
+    strategies, and the potential effects of contact tracing and household bubbles.
+  - >-
+    The consortium produced successive reports exploring how changes in social mixing and
+    intervention measures could affect future hospital admissions. As the epidemic evolved, the
+    analyses incorporated vaccination and the emergence of the Alpha variant. These scenarios
+    examined the interaction between vaccination progress and the timing of relaxation measures,
+    highlighting the potential for renewed pressure on healthcare services if transmission increased
+    before sufficient protection had accumulated.
+  - >-
+    The reports presented conditional projections under explicit assumptions, allowing alternative
+    policy options to be compared while acknowledging uncertainty about future behaviour, vaccination
+    and viral evolution. RESTORE connected methodological research with rapidly changing public-health
+    questions and established a collaborative framework for comparing models and communicating
+    epidemic scenarios.
   role: Co-investigator
   period: 2020–2021
   funding: FWO COVID-19 Project · G0G2920N
+  links:
+  - label: 'Abrams et al. (2021) — Modelling the early phase of the Belgian COVID-19 epidemic using a stochastic compartmental model and studying its implied future trajectories. Epidemics, 35, 100449.'
+    url: https://doi.org/10.1016/j.epidem.2021.100449
+  - label: 'Coletti et al. (2021) — A data-driven metapopulation model for the Belgian COVID-19 epidemic: assessing the impact of lockdown and exit strategies. BMC Infectious Diseases.'
+    url: https://doi.org/10.1186/s12879-021-06092-w
+  - label: 'Willem et al. (2021) — The impact of contact tracing and household bubbles on deconfinement strategies for COVID-19. Nature Communications, 12, 1524.'
+    url: https://doi.org/10.1038/s41467-021-21747-7
 - title: Time-varying association in censored event-time data
   summary: Nonparametric estimation of changing association between two time-to-event outcomes.
   role: Co-investigator
