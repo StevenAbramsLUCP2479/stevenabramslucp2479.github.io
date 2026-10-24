@@ -1,0 +1,23 @@
+---
+layout: single
+---
+{% assign project = site.data.research_projects | where: "id", page.project_id | first %}
+<p><a href="{{ '/projects/' | relative_url }}">Back to research projects</a></p>
+
+{% if project.role %}<p><strong>My role:</strong> {{ project.role | escape }}</p>{% endif %}
+{% if project.period %}<p><strong>Project period:</strong> {{ project.period | escape }}</p>{% endif %}
+{% if project.funding %}<p>{{ project.funding | escape }}</p>{% endif %}
+
+<h2>Research summary</h2>
+{% for paragraph in project.details %}
+<p>{{ paragraph | escape }}</p>
+{% endfor %}
+
+<h2>Related publications</h2>
+<ul>
+{% for resource in project.links %}
+  <li><a href="{% if resource.url contains '://' %}{{ resource.url }}{% else %}{{ resource.url | relative_url }}{% endif %}">{{ resource.label | escape }}</a></li>
+{% endfor %}
+</ul>
+
+{{ content }}

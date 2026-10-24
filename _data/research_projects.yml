@@ -48,6 +48,8 @@
   - label: 'BRAVE study: mRNA vaccines'
     url: /publication/2025-01-01-an-extension-of-the-benefit-risk-assessment-of-vaccines-toolkit-to-evaluate-comi/
 - title: Bernstein-based estimation of the cross-ratio function
+  id: bernstein-cross-ratio
+  details_url: /projects/bernstein-cross-ratio/
   summary: Developing flexible statistical methods to describe how the association between two outcomes
     changes across their distributions, with particular applications to event-time data.
   details:
@@ -109,6 +111,8 @@
   role: Co-investigator
   funding: FWO Project · R-7543
 - title: Measles, mumps and rubella surveillance
+  id: measles-mumps-rubella
+  details_url: /projects/measles-mumps-rubella/
   summary: Surveillance, outbreak assessment and outbreak management in collaboration with the Belgian
     Scientific Institute of Public Health (WIV-ISP).
   details:
@@ -126,6 +130,14 @@
     identifies the potential for resurgence, particularly during school terms, and highlights susceptibility 
     among adolescents and young adults and the vulnerability of infants.
   - >-
+    Abrams et al. (2016) extends the same outbreak-risk framework to rubella in Belgium, complementing
+    the mumps and measles analyses. The study combines Belgian rubella seroprevalence data from 2006
+    with vaccination coverage, social-contact information and evidence on primary vaccine failure
+    and waning immunity to assess geographical variation in outbreak potential. It also examines
+    differences in susceptibility between males and females arising from the history of rubella
+    vaccination in Belgium. The estimated outbreak risk was low for the period studied, while the
+    findings emphasised the importance of maintaining high immunisation levels and surveillance.
+  - >-
     Schenk et al. (2022) adds a Bayesian cohort analysis of Belgian serological surveys
     from 2002, 2006 and 2013. It identifies persistent measles immunity gaps in birth cohorts offered
     vaccination at suboptimal coverage during the early years of routine vaccination. Together,
@@ -137,5 +149,7 @@
     url: /publication/2014-01-01-assessing-mumps-outbreak-risk-in-highly-vaccinated-populations-using-spatial-ser/
   - label: 'Hens et al. (2015) — Assessing the risk of measles resurgence in a highly vaccinated population: Belgium anno 2013. Eurosurveillance, 20(1), 20998.'
     url: /publication/2015-01-01-assessing-the-risk-of-measles-resurgence-in-a-highly-vaccinated-population-belgi/
+  - label: 'Abrams et al. (2016) — Inferring rubella outbreak risk from seroprevalence data in Belgium. Vaccine, 34(50), 6187–6192.'
+    url: /publication/2016-01-01-inferring-rubella-outbreak-risk-from-seroprevalence-data-in-belgium/
   - label: 'Schenk et al. (2022) — Identifying immunity gaps for measles using Belgian serial serology data. Vaccine, 40(26), 3676–3683.'
     url: /publication/2022-01-01-identifying-immunity-gaps-for-measles-using-belgian-serial-serology-data/
