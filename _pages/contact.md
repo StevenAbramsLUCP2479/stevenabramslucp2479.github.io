@@ -10,7 +10,7 @@ For enquiries about research collaborations, student supervision, seminars or sc
 
 ## Hasselt University
 
-Data Science Institute · Centre for Statistics · I-BioStat
+Data Science Institute · Center for Statistics · I-BioStat
 
 [{{ site.author.email }}](mailto:{{ site.author.email }})
 
