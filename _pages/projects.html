@@ -11,10 +11,14 @@ author_profile: true
 <article class="project-card">
   <h2>{% if project.url %}<a href="{{ project.url }}">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h2>
   <p>{{ project.summary }}</p>
+  {% for paragraph in project.details %}
+  <p>{{ paragraph | escape }}</p>
+  {% endfor %}
   {% if project.role %}<p class="project-card__meta"><strong>My role:</strong> {{ project.role }}</p>{% endif %}
   {% if project.period %}<p class="project-card__meta"><strong>Project period:</strong> {{ project.period }}</p>{% endif %}
   {% if project.funding %}<p class="project-card__meta">{{ project.funding }}</p>{% endif %}
   {% if project.links %}
+  {% if project.links_heading %}<h3>{{ project.links_heading }}</h3>{% endif %}
   <ul>
     {% for resource in project.links %}
     <li><a href="{% if resource.url contains '://' %}{{ resource.url }}{% else %}{{ resource.url | relative_url }}{% endif %}">{{ resource.label }}</a></li>
