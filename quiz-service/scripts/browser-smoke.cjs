@@ -18,14 +18,14 @@ await page.getByRole('link',{name:'Read instructions'}).click();
 await page.screenshot({path:'quiz-instructions.png',fullPage:true});
 await page.locator('#consent').check();
 await page.getByRole('button',{name:'Start my attempt'}).click();
-await page.waitForFunction(()=>document.getElementById('progress').textContent==='Question 1 of 10');
+await page.getByText('Question 1 of 10', {exact:true}).waitFor();
 assert.equal(await page.locator('input[type=radio]').count(),4);
 await page.screenshot({path:'quiz-question.png',fullPage:true});
 await page.locator('input[type=radio]').first().check();
 await page.getByRole('button',{name:'Submit answer'}).click();
-await page.waitForFunction(()=>document.getElementById('progress').textContent==='Question 2 of 10');
+await page.getByText('Question 2 of 10', {exact:true}).waitFor();
 // Leave the second question unanswered: server must advance with a timeout.
-await page.waitForFunction(()=>document.getElementById('progress').textContent==='Question 3 of 10',{},{timeout:15000});
+await page.getByText('Question 3 of 10', {exact:true}).waitFor({timeout:15000});
 await page.evaluate(()=>window.dispatchEvent(new Event('blur')));
 await page.getByRole('heading',{name:'Attempt locked'}).waitFor();
 await page.reload();
