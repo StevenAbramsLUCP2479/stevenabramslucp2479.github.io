@@ -1,0 +1,5 @@
+{% extends 'assessment/base.html' %}{% block content %}<h1>Quiz results</h1>
+<p>Download one CSV per quiz, with scores, responses, question text, timestamps and lock reasons. Keep these files private.</p>
+{% for quiz in quizzes %}<section class="card"><h2>{{ quiz.title }}</h2><p>{{ quiz.opens_at }} – {{ quiz.closes_at }} (Europe/Brussels)</p>
+<a class="button" href="{% url 'export' quiz.pk %}">Download results CSV</a></section>{% empty %}<p>No quizzes yet.</p>{% endfor %}
+<p><a href="/admin/">Manage quizzes, timing and students</a> · <a href="{% url 'lobby' %}">My quizzes</a></p>{% endblock %}

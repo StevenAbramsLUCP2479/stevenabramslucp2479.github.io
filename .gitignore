@@ -21,3 +21,13 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# Private quiz runtime data (never commit credentials, responses or private banks)
+quiz-service/.env
+quiz-service/.venv/
+quiz-service/db.sqlite3*
+quiz-service/staticfiles/
+quiz-service/private/
+quiz-service/**/*.csv
+__pycache__/
+*.pyc

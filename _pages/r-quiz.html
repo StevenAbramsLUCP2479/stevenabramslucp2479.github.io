@@ -1,0 +1,21 @@
+---
+layout: single
+title: "R programming quiz"
+permalink: /r-quiz/
+author_profile: true
+excerpt: "A timed introduction-to-R quiz for enrolled students."
+---
+<p>Test your understanding of R data types, vectors, lists, data frames, functions and basic programming. Each attempt contains 10 questions selected from a bank of 100.</p>
+<h2>Before you begin</h2>
+<ul>
+  <li>Use the student account supplied by your instructor, during your assigned time slot.</li>
+  <li>Each question has a time limit set by your instructor. Submitted answers cannot be changed.</li>
+  <li>Stay on the quiz page. Switching tabs or windows, refreshing, or leaving the page locks your attempt.</li>
+  <li>Use a stable internet connection. If an attempt locks because of a technical problem, contact your instructor.</li>
+</ul>
+{% if site.r_quiz_url and site.r_quiz_url != "" %}
+<p><a class="btn btn--primary" href="{{ site.r_quiz_url | escape }}">Sign in to the R quiz</a></p>
+{% else %}
+<p><strong>The quiz module is not open yet.</strong> Your instructor will provide access once it is ready.</p>
+{% endif %}
+<p>Your responses, scores and attempt events are stored privately for your instructor.</p>
