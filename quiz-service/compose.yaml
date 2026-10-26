@@ -1,0 +1,48 @@
+# Run on an institution-managed host with a DNS name pointing to it.
+x-app: &app
+  build: .
+  environment:
+    DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:?Set a random secret in .env}
+    DJANGO_ALLOWED_HOSTS: ${QUIZ_HOST:?Set your quiz DNS hostname in .env}
+    CSRF_TRUSTED_ORIGINS: https://${QUIZ_HOST}
+    DATABASE_URL: postgres://quiz:${POSTGRES_PASSWORD:?Set a database password in .env}@db:5432/quiz
+    PGSSLMODE: disable # DB is only on the private Docker network; external DBs must use TLS.
+    TRUST_PROXY: '1'
+  depends_on:
+    db:
+      condition: service_healthy
+  restart: unless-stopped
+services:
+  app:
+    <<: *app
+  expiry:
+    <<: *app
+    command: [sh, -c, 'while true; do python manage.py expire_attempts; sleep 60; done']
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: quiz
+      POSTGRES_USER: quiz
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes: [quiz-db:/var/lib/postgresql/data]
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U quiz -d quiz']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+  https:
+    image: caddy:2-alpine
+    environment:
+      QUIZ_HOST: ${QUIZ_HOST}
+    ports: ['80:80', '443:443']
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on: [app]
+    restart: unless-stopped
+volumes:
+  quiz-db:
+  caddy-data:
+  caddy-config:
