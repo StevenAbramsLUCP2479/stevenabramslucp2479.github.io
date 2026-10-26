@@ -1,5 +1,0 @@
-{% extends 'assessment/base.html' %}{% block content %}
-<h1>R programming quiz</h1><p>Sign in with the account supplied by your instructor. Student access opens only during your assigned time slot.</p>
-<form method="post">{% csrf_token %}{{ form.as_p }}<button type="submit">Sign in</button></form>
-<p>Forgotten your password? Contact your instructor before starting.</p>
-{% endblock %}

@@ -1,3 +1,0 @@
-{$QUIZ_HOST} {
-    reverse_proxy app:8000
-}

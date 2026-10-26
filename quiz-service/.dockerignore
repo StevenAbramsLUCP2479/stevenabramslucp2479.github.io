@@ -1,8 +1,0 @@
-.env
-.venv
-private
-*.csv
-db.sqlite3*
-__pycache__
-**/__pycache__
-staticfiles

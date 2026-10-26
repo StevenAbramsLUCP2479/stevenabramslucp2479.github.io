@@ -170,7 +170,6 @@ include:
   - _pages
   - files
 exclude:
-  - quiz-service
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -362,6 +361,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-# Set after deploying the secure quiz service; never put credentials here.
-r_quiz_url: ""

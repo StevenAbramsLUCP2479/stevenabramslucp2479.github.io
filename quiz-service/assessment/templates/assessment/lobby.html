@@ -1,9 +1,0 @@
-{% extends 'assessment/base.html' %}{% block content %}
-<h1>Your R quizzes</h1><p>Signed in as <strong>{{ user.username }}</strong>. All times below are Europe/Brussels.</p>
-{% for enrollment in enrollments %}<section class="card"><h2>{{ enrollment.quiz.title }}</h2>
-<p>{{ enrollment.quiz.opens_at|date:'j F Y H:i T' }} – {{ enrollment.quiz.closes_at|date:'j F Y H:i T' }}</p>
-<a class="button" href="{% url 'quiz' enrollment.quiz.pk %}">Read instructions</a></section>
-{% empty %}<p>No published quizzes are assigned to your account.</p>{% endfor %}
-{% if perms.assessment.view_attempt %}<p><a href="{% url 'instructor' %}">Instructor results</a> · <a href="/admin/">Manage quizzes and students</a></p>{% endif %}
-<form method="post" action="{% url 'logout' %}">{% csrf_token %}<button class="secondary">Sign out</button></form>
-{% endblock %}
