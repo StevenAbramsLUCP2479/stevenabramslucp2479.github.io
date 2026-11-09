@@ -1,0 +1,65 @@
+name: Update publications from ORCID
+
+on:
+  schedule:
+    - cron: '17 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: orcid-publications
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: main
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Install importer dependencies
+        run: python -m pip install -r scripts/requirements.txt
+      - name: Test importer
+        run: python -m unittest discover -s tests -v
+      - name: Fetch public ORCID works
+        run: python scripts/sync_publications.py
+      - name: Save review summary and patch
+        run: |
+          cat publication-sync-report.md >> "$GITHUB_STEP_SUMMARY"
+          git add --intent-to-add _publications
+          git diff -- _publications > publication-sync.patch
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - name: Validate updated website
+        run: bundle exec jekyll build --strict_front_matter
+        env:
+          JEKYLL_ENV: production
+      - name: Open or update publication review
+        uses: peter-evans/create-pull-request@15733dbdfeedb4f7fdb73d13c6f5ac83b710fab8 # v8
+        with:
+          branch: automation/orcid-publications
+          base: main
+          add-paths: _publications/*.md
+          commit-message: Update publication records from ORCID
+          title: Update publication records from ORCID
+          body-path: publication-sync-report.md
+          delete-branch: true
+      - name: Retain report and patch for troubleshooting
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: publication-sync-review
+          path: |
+            publication-sync-report.md
+            publication-sync.patch
+          if-no-files-found: ignore
+          retention-days: 30

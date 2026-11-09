@@ -21,3 +21,9 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# Publication importer runtime files
+__pycache__/
+*.pyc
+publication-sync-report.md
+publication-sync.patch

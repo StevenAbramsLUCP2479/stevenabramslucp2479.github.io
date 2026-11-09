@@ -170,6 +170,10 @@ include:
   - _pages
   - files
 exclude:
+  - scripts
+  - tests
+  - publication-sync-report.md
+  - publication-sync.patch
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

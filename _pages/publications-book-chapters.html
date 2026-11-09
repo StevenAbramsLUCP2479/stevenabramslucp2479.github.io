@@ -15,20 +15,7 @@ author_profile: true
   Contributions to scientific books and reference works.
 </p>
 
-<div style="margin-top: 2em;">
-
-  <div style="margin-bottom: 2em;">
-    <strong>Abrams, S.</strong><br>
-    <em>The analysis of multivariate serological data</em><br>
-    Chapter in <em>Handbook of Infectious Disease Data Analysis</em>.<br>
-    Chapman &amp; Hall/CRC.
-  </div>
-
-  <div style="margin-bottom: 2em;">
-    <strong>Duchateau, L., Janssen, P., Abrams, S.</strong><br>
-    <em>The frailty model</em><br>
-    Chapter in <em>International Encyclopedia of Statistical Science</em>.<br>
-    Springer.
-  </div>
-
-</div>
+{% assign publications = site.publications | where: "category", "books" | sort: "date" | reverse %}
+{% for post in publications %}
+  {% include publication-card.html %}
+{% endfor %}
